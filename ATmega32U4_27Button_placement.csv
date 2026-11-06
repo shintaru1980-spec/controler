@@ -1,0 +1,72 @@
+﻿Designator,Value,Footprint,X_mm,Y_mm,Rotation_deg,Side,Assembly,LCSC/JLCPCB,Note
+SW01,DTS-24N,DTS-24N_4P_12mm,15,22,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D01,1N4148WS,D_SOD-323,25,26.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW02,DTS-24N,DTS-24N_4P_12mm,34,22,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D02,1N4148WS,D_SOD-323,44,26.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW03,DTS-24N,DTS-24N_4P_12mm,53,22,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D03,1N4148WS,D_SOD-323,63,26.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW04,DTS-24N,DTS-24N_4P_12mm,15,41,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D04,1N4148WS,D_SOD-323,25,45.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW05,DTS-24N,DTS-24N_4P_12mm,34,41,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D05,1N4148WS,D_SOD-323,44,45.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW06,DTS-24N,DTS-24N_4P_12mm,53,41,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D06,1N4148WS,D_SOD-323,63,45.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW07,DTS-24N,DTS-24N_4P_12mm,72,41,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D07,1N4148WS,D_SOD-323,82,45.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW08,DTS-24N,DTS-24N_4P_12mm,91,41,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D08,1N4148WS,D_SOD-323,101,45.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW09,DTS-24N,DTS-24N_4P_12mm,110,41,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D09,1N4148WS,D_SOD-323,120,45.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW10,DTS-24N,DTS-24N_4P_12mm,15,60,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D10,1N4148WS,D_SOD-323,25,64.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW11,DTS-24N,DTS-24N_4P_12mm,34,60,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D11,1N4148WS,D_SOD-323,44,64.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW12,DTS-24N,DTS-24N_4P_12mm,53,60,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D12,1N4148WS,D_SOD-323,63,64.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW13,DTS-24N,DTS-24N_4P_12mm,72,60,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D13,1N4148WS,D_SOD-323,82,64.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW14,DTS-24N,DTS-24N_4P_12mm,91,60,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D14,1N4148WS,D_SOD-323,101,64.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW15,DTS-24N,DTS-24N_4P_12mm,110,60,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D15,1N4148WS,D_SOD-323,120,64.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW16,DTS-24N,DTS-24N_4P_12mm,15,79,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D16,1N4148WS,D_SOD-323,25,83.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW17,DTS-24N,DTS-24N_4P_12mm,34,79,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D17,1N4148WS,D_SOD-323,44,83.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW18,DTS-24N,DTS-24N_4P_12mm,53,79,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D18,1N4148WS,D_SOD-323,63,83.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW19,DTS-24N,DTS-24N_4P_12mm,72,79,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D19,1N4148WS,D_SOD-323,82,83.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW20,DTS-24N,DTS-24N_4P_12mm,91,79,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D20,1N4148WS,D_SOD-323,101,83.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW21,DTS-24N,DTS-24N_4P_12mm,110,79,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D21,1N4148WS,D_SOD-323,120,83.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW22,DTS-24N,DTS-24N_4P_12mm,15,98,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D22,1N4148WS,D_SOD-323,25,102.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW23,DTS-24N,DTS-24N_4P_12mm,34,98,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D23,1N4148WS,D_SOD-323,44,102.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW24,DTS-24N,DTS-24N_4P_12mm,53,98,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D24,1N4148WS,D_SOD-323,63,102.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW25,DTS-24N,DTS-24N_4P_12mm,72,98,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D25,1N4148WS,D_SOD-323,82,102.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW26,DTS-24N,DTS-24N_4P_12mm,91,98,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D26,1N4148WS,D_SOD-323,101,102.5,0,Top,SMT,C493187,Cathode pad 1 to column
+SW27,DTS-24N,DTS-24N_4P_12mm,110,98,0,Top,THT,C483776,Verify exact cap-compatible DTS-24N variant before order
+D27,1N4148WS,D_SOD-323,120,102.5,0,Top,SMT,C493187,Cathode pad 1 to column
+U1,ATmega32U4-AU,LQFP-44_10x10_P0.8,132,10,0,Top,SMT,C44854,JLC basic SMT part
+J1,TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,144,8,90,Top,SMT,C165948,USB-C right-facing; confirm JLC footprint revision
+J2,ICSP_2x03,PinHeader_2x03_P2.54mm_Vertical,112,8,0,Top,THT,,Optional user-installed programming header
+X1,16MHz,Crystal_SMD_5032-2Pin,134.5,19,0,Top,SMT,C122519,16MHz crystal; verify current JLC part package
+R1,5.1k,R_0603,142,9.25,0,Top,SMT,C20983,Provisional JLC basic part; verify package/value
+R2,5.1k,R_0603,142,6.25,0,Top,SMT,C20983,Provisional JLC basic part; verify package/value
+R3,10k,R_0603,124,17.8,0,Top,SMT,C25804,Provisional JLC basic part; verify package/value
+R4,10k,R_0603,127,17.8,0,Top,SMT,C25804,Provisional JLC basic part; verify package/value
+C1,100nF,C_0603,120,7,0,Top,SMT,C14663,Provisional JLC basic part; verify package/value
+C2,100nF,C_0603,120,12,0,Top,SMT,C14663,Provisional JLC basic part; verify package/value
+C3,1uF,C_0603,123,10,0,Top,SMT,C15849,Provisional JLC basic part; verify package/value
+C4,100nF,C_0603,131.5,5,0,Top,SMT,C14663,Provisional JLC basic part; verify package/value
+C5,33pF,C_0603,125,19,0,Top,SMT,C1653,Provisional JLC basic part; verify package/value
+C6,33pF,C_0603,137,19,0,Top,SMT,C1653,Provisional JLC basic part; verify package/value
+C7,1uF,C_0603,145,1.5,0,Top,SMT,C15849,Provisional JLC basic part; verify package/value
+TP1,RESET,TestPoint_Pad_D1.5mm,120,15,0,Top,SMT,,Optional test point
+TP2,HWB,TestPoint_Pad_D1.5mm,120,17,0,Top,SMT,,Optional test point

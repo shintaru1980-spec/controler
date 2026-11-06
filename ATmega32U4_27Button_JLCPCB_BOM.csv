@@ -1,0 +1,13 @@
+﻿Comment,Designator,Footprint,JLCPCB Part #,Assembly
+ATmega32U4-AU,U1,LQFP-44_10x10_P0.8,C44854,SMT
+TYPE-C-31-M-12,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948,SMT
+16MHz,X1,Crystal_SMD_5032-2Pin,C122519,SMT
+1N4148WS,D01-D27,D_SOD-323,C493187,SMT
+DTS-24N,SW01-SW27,DTS-24N_4P_12mm,C483776,THT / verify variant
+5.1k,R1-R2,R_0603,C20983,SMT / verify current basic part
+10k,R3-R4,R_0603,C25804,SMT / verify current basic part
+100nF,"C1-C2,C4",C_0603,C14663,SMT / verify current basic part
+1uF,"C3,C7",C_0603,C15849,SMT / verify current basic part
+33pF,C5-C6,C_0603,C1653,SMT / verify current basic part
+ICSP_2x03,J2,PinHeader_2x03_P2.54mm_Vertical,,Optional THT / user install
+Test pad,TP1-TP2,TestPoint_Pad_D1.5mm,,Optional SMT

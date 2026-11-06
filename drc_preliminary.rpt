@@ -1,0 +1,586 @@
+** Drc report for ProMicro_27Button.kicad_pcb **
+** Created on 2026-11-06T10:39:50 **
+** Report includes: Errors, Warnings **
+
+** Found 159 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(147.5000 mm, 22.0000 mm): Track [ROW1] on F.Cu, length 2.0000 mm
+    @(147.9500 mm, 22.0000 mm): Track [ROW2] on F.Cu, length 14.4600 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(15.0000 mm, 22.0000 mm): Track [ROW1] on F.Cu, length 132.5000 mm
+    @(147.9500 mm, 22.0000 mm): Track [ROW2] on F.Cu, length 14.4600 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(0.0000 mm, 0.0000 mm): Rectangle on Edge.Cuts
+    @(116.9800 mm, 27.7800 mm): Rectangle of U1 on f.silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(0.0000 mm, 0.0000 mm): Rectangle on Edge.Cuts
+    @(149.8800 mm, 21.9800 mm): Segment of U1 on f.silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(0.0000 mm, 0.0000 mm): Rectangle on Edge.Cuts
+    @(149.1800 mm, 18.8900 mm): Footprint text of U1 (USB-C)
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(75.0000 mm, 4.5000 mm): PCB text 'Pro Micro: 5V / 16MHz / USB-C THT module' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7600 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(75.0000 mm, 117.8000 mm): PCB text '27 x 1N4148WS SOD-323: JLCPCB SMT; DTS-24N + U1 hand solder' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(75.0000 mm, 119.0000 mm): PCB text 'ROW: D2..D6   COL: A2,A1,A0,D15,D14,D16' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(3.0000 mm, 22.0000 mm): PCB text 'ROW1' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(3.0000 mm, 41.0000 mm): PCB text 'ROW2' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(3.0000 mm, 60.0000 mm): PCB text 'ROW3' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(3.0000 mm, 79.0000 mm): PCB text 'ROW4' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(3.0000 mm, 98.0000 mm): PCB text 'ROW5' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(15.0000 mm, 26.0000 mm): PCB text 'C1' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(34.0000 mm, 26.0000 mm): PCB text 'C2' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(53.0000 mm, 26.0000 mm): PCB text 'C3' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(72.0000 mm, 26.0000 mm): PCB text 'C4' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(91.0000 mm, 26.0000 mm): PCB text 'C5' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(110.0000 mm, 26.0000 mm): PCB text 'C6' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 28.5000 mm): PCB text 'D01' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 28.5000 mm): PCB text 'D02' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 28.5000 mm): PCB text 'D03' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 47.5000 mm): PCB text 'D04' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 47.5000 mm): PCB text 'D05' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 47.5000 mm): PCB text 'D06' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 47.5000 mm): PCB text 'D07' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 47.5000 mm): PCB text 'D08' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 47.5000 mm): PCB text 'D09' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 66.5000 mm): PCB text 'D10' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 66.5000 mm): PCB text 'D11' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 66.5000 mm): PCB text 'D12' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 66.5000 mm): PCB text 'D13' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 66.5000 mm): PCB text 'D14' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 66.5000 mm): PCB text 'D15' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 85.5000 mm): PCB text 'D16' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 85.5000 mm): PCB text 'D17' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 85.5000 mm): PCB text 'D18' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 85.5000 mm): PCB text 'D19' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 85.5000 mm): PCB text 'D20' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 85.5000 mm): PCB text 'D21' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 104.5000 mm): PCB text 'D22' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 104.5000 mm): PCB text 'D23' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 104.5000 mm): PCB text 'D24' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 104.5000 mm): PCB text 'D25' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 104.5000 mm): PCB text 'D26' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.5500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 104.5000 mm): PCB text 'D27' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 28.1500 mm): Reference field of D01
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 28.1500 mm): Reference field of D02
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 28.1500 mm): Reference field of D03
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 47.1500 mm): Reference field of D04
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 47.1500 mm): Reference field of D05
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 47.1500 mm): Reference field of D06
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 47.1500 mm): Reference field of D07
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 47.1500 mm): Reference field of D08
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 47.1500 mm): Reference field of D09
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 66.1500 mm): Reference field of D10
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 66.1500 mm): Reference field of D11
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 66.1500 mm): Reference field of D12
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 66.1500 mm): Reference field of D13
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 66.1500 mm): Reference field of D14
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 66.1500 mm): Reference field of D15
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 85.1500 mm): Reference field of D16
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 85.1500 mm): Reference field of D17
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 85.1500 mm): Reference field of D18
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 85.1500 mm): Reference field of D19
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 85.1500 mm): Reference field of D20
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 85.1500 mm): Reference field of D21
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 104.1500 mm): Reference field of D22
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 104.1500 mm): Reference field of D23
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 104.1500 mm): Reference field of D24
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 104.1500 mm): Reference field of D25
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 104.1500 mm): Reference field of D26
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 104.1500 mm): Reference field of D27
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(82.0000 mm, 47.1500 mm): Reference field of D07
+    @(82.0000 mm, 47.5000 mm): PCB text 'D07' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(101.0000 mm, 47.5000 mm): PCB text 'D08' on f.silkscreen
+    @(101.0000 mm, 47.1500 mm): Reference field of D08
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(149.1800 mm, 18.8900 mm): Footprint text of U1 (USB-C)
+    @(116.9800 mm, 27.7800 mm): Rectangle of U1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(149.1800 mm, 18.8900 mm): Footprint text of U1 (USB-C)
+    @(149.8800 mm, 21.9800 mm): Segment of U1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(120.0000 mm, 47.5000 mm): PCB text 'D09' on f.silkscreen
+    @(120.0000 mm, 47.1500 mm): Reference field of D09
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(120.0000 mm, 66.5000 mm): PCB text 'D15' on f.silkscreen
+    @(120.0000 mm, 66.1500 mm): Reference field of D15
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(101.0000 mm, 66.1500 mm): Reference field of D14
+    @(101.0000 mm, 66.5000 mm): PCB text 'D14' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(82.0000 mm, 66.1500 mm): Reference field of D13
+    @(82.0000 mm, 66.5000 mm): PCB text 'D13' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(63.0000 mm, 104.1500 mm): Reference field of D24
+    @(63.0000 mm, 104.5000 mm): PCB text 'D24' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(63.0000 mm, 85.5000 mm): PCB text 'D18' on f.silkscreen
+    @(63.0000 mm, 85.1500 mm): Reference field of D18
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(101.0000 mm, 104.5000 mm): PCB text 'D26' on f.silkscreen
+    @(101.0000 mm, 104.1500 mm): Reference field of D26
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(82.0000 mm, 104.1500 mm): Reference field of D25
+    @(82.0000 mm, 104.5000 mm): PCB text 'D25' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(101.0000 mm, 85.5000 mm): PCB text 'D20' on f.silkscreen
+    @(101.0000 mm, 85.1500 mm): Reference field of D20
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(120.0000 mm, 85.5000 mm): PCB text 'D21' on f.silkscreen
+    @(120.0000 mm, 85.1500 mm): Reference field of D21
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(82.0000 mm, 85.1500 mm): Reference field of D19
+    @(82.0000 mm, 85.5000 mm): PCB text 'D19' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(120.0000 mm, 104.5000 mm): PCB text 'D27' on f.silkscreen
+    @(120.0000 mm, 104.1500 mm): Reference field of D27
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(25.0000 mm, 66.5000 mm): PCB text 'D10' on f.silkscreen
+    @(25.0000 mm, 66.1500 mm): Reference field of D10
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(44.0000 mm, 104.1500 mm): Reference field of D23
+    @(44.0000 mm, 104.5000 mm): PCB text 'D23' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(63.0000 mm, 47.5000 mm): PCB text 'D06' on f.silkscreen
+    @(63.0000 mm, 47.1500 mm): Reference field of D06
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(44.0000 mm, 28.1500 mm): Reference field of D02
+    @(44.0000 mm, 28.5000 mm): PCB text 'D02' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(44.0000 mm, 47.1500 mm): Reference field of D05
+    @(44.0000 mm, 47.5000 mm): PCB text 'D05' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(63.0000 mm, 66.5000 mm): PCB text 'D12' on f.silkscreen
+    @(63.0000 mm, 66.1500 mm): Reference field of D12
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(44.0000 mm, 66.5000 mm): PCB text 'D11' on f.silkscreen
+    @(44.0000 mm, 66.1500 mm): Reference field of D11
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(25.0000 mm, 104.1500 mm): Reference field of D22
+    @(25.0000 mm, 104.5000 mm): PCB text 'D22' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(44.0000 mm, 85.5000 mm): PCB text 'D17' on f.silkscreen
+    @(44.0000 mm, 85.1500 mm): Reference field of D17
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(25.0000 mm, 85.5000 mm): PCB text 'D16' on f.silkscreen
+    @(25.0000 mm, 85.1500 mm): Reference field of D16
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(63.0000 mm, 28.5000 mm): PCB text 'D03' on f.silkscreen
+    @(63.0000 mm, 28.1500 mm): Reference field of D03
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(53.0000 mm, 26.0000 mm): PCB text 'C3' on f.silkscreen
+    @(53.0000 mm, 22.0000 mm): Circle of SW03 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(34.0000 mm, 26.0000 mm): PCB text 'C2' on f.silkscreen
+    @(34.0000 mm, 22.0000 mm): Circle of SW02 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(25.0000 mm, 47.1500 mm): Reference field of D04
+    @(25.0000 mm, 47.5000 mm): PCB text 'D04' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(15.0000 mm, 26.0000 mm): PCB text 'C1' on f.silkscreen
+    @(15.0000 mm, 22.0000 mm): Circle of SW01 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(25.0000 mm, 28.1500 mm): Reference field of D01
+    @(25.0000 mm, 28.5000 mm): PCB text 'D01' on f.silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 44.7500 mm): Rectangle of D07 on f.silkscreen
+    @(83.1500 mm, 45.5000 mm): Pad 2 [D07_A] of D07 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 44.7500 mm): Rectangle of D07 on f.silkscreen
+    @(80.8500 mm, 45.5000 mm): Pad 1 [COL4] of D07 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 44.7500 mm): Rectangle of D08 on f.silkscreen
+    @(102.1500 mm, 45.5000 mm): Pad 2 [D08_A] of D08 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 44.7500 mm): Rectangle of D08 on f.silkscreen
+    @(99.8500 mm, 45.5000 mm): Pad 1 [COL5] of D08 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 44.7500 mm): Rectangle of D09 on f.silkscreen
+    @(121.1500 mm, 45.5000 mm): Pad 2 [D09_A] of D09 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 44.7500 mm): Rectangle of D09 on f.silkscreen
+    @(118.8500 mm, 45.5000 mm): Pad 1 [COL6] of D09 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 63.7500 mm): Rectangle of D15 on f.silkscreen
+    @(121.1500 mm, 64.5000 mm): Pad 2 [D15_A] of D15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 63.7500 mm): Rectangle of D15 on f.silkscreen
+    @(118.8500 mm, 64.5000 mm): Pad 1 [COL6] of D15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 63.7500 mm): Rectangle of D14 on f.silkscreen
+    @(102.1500 mm, 64.5000 mm): Pad 2 [D14_A] of D14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 63.7500 mm): Rectangle of D14 on f.silkscreen
+    @(99.8500 mm, 64.5000 mm): Pad 1 [COL5] of D14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 63.7500 mm): Rectangle of D13 on f.silkscreen
+    @(83.1500 mm, 64.5000 mm): Pad 2 [D13_A] of D13 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 63.7500 mm): Rectangle of D13 on f.silkscreen
+    @(80.8500 mm, 64.5000 mm): Pad 1 [COL4] of D13 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 101.7500 mm): Rectangle of D24 on f.silkscreen
+    @(64.1500 mm, 102.5000 mm): Pad 2 [D24_A] of D24 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 101.7500 mm): Rectangle of D24 on f.silkscreen
+    @(61.8500 mm, 102.5000 mm): Pad 1 [COL3] of D24 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 82.7500 mm): Rectangle of D21 on f.silkscreen
+    @(121.1500 mm, 83.5000 mm): Pad 2 [D21_A] of D21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 82.7500 mm): Rectangle of D21 on f.silkscreen
+    @(118.8500 mm, 83.5000 mm): Pad 1 [COL6] of D21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 82.7500 mm): Rectangle of D20 on f.silkscreen
+    @(102.1500 mm, 83.5000 mm): Pad 2 [D20_A] of D20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 82.7500 mm): Rectangle of D20 on f.silkscreen
+    @(99.8500 mm, 83.5000 mm): Pad 1 [COL5] of D20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 101.7500 mm): Rectangle of D25 on f.silkscreen
+    @(83.1500 mm, 102.5000 mm): Pad 2 [D25_A] of D25 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 101.7500 mm): Rectangle of D25 on f.silkscreen
+    @(80.8500 mm, 102.5000 mm): Pad 1 [COL4] of D25 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 101.7500 mm): Rectangle of D26 on f.silkscreen
+    @(102.1500 mm, 102.5000 mm): Pad 2 [D26_A] of D26 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.6500 mm, 101.7500 mm): Rectangle of D26 on f.silkscreen
+    @(99.8500 mm, 102.5000 mm): Pad 1 [COL5] of D26 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 101.7500 mm): Rectangle of D27 on f.silkscreen
+    @(121.1500 mm, 102.5000 mm): Pad 2 [D27_A] of D27 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.6500 mm, 101.7500 mm): Rectangle of D27 on f.silkscreen
+    @(118.8500 mm, 102.5000 mm): Pad 1 [COL6] of D27 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 63.7500 mm): Rectangle of D10 on f.silkscreen
+    @(26.1500 mm, 64.5000 mm): Pad 2 [D10_A] of D10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 63.7500 mm): Rectangle of D10 on f.silkscreen
+    @(23.8500 mm, 64.5000 mm): Pad 1 [COL1] of D10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 101.7500 mm): Rectangle of D23 on f.silkscreen
+    @(45.1500 mm, 102.5000 mm): Pad 2 [D23_A] of D23 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 101.7500 mm): Rectangle of D23 on f.silkscreen
+    @(42.8500 mm, 102.5000 mm): Pad 1 [COL2] of D23 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 25.7500 mm): Rectangle of D02 on f.silkscreen
+    @(42.8500 mm, 26.5000 mm): Pad 1 [COL2] of D02 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 63.7500 mm): Rectangle of D12 on f.silkscreen
+    @(64.1500 mm, 64.5000 mm): Pad 2 [D12_A] of D12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 63.7500 mm): Rectangle of D12 on f.silkscreen
+    @(61.8500 mm, 64.5000 mm): Pad 1 [COL3] of D12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 63.7500 mm): Rectangle of D11 on f.silkscreen
+    @(42.8500 mm, 64.5000 mm): Pad 1 [COL2] of D11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 63.7500 mm): Rectangle of D11 on f.silkscreen
+    @(45.1500 mm, 64.5000 mm): Pad 2 [D11_A] of D11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 101.7500 mm): Rectangle of D22 on f.silkscreen
+    @(26.1500 mm, 102.5000 mm): Pad 2 [D22_A] of D22 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 101.7500 mm): Rectangle of D22 on f.silkscreen
+    @(23.8500 mm, 102.5000 mm): Pad 1 [COL1] of D22 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 82.7500 mm): Rectangle of D17 on f.silkscreen
+    @(42.8500 mm, 83.5000 mm): Pad 1 [COL2] of D17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 82.7500 mm): Rectangle of D17 on f.silkscreen
+    @(45.1500 mm, 83.5000 mm): Pad 2 [D17_A] of D17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 82.7500 mm): Rectangle of D18 on f.silkscreen
+    @(64.1500 mm, 83.5000 mm): Pad 2 [D18_A] of D18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 82.7500 mm): Rectangle of D18 on f.silkscreen
+    @(61.8500 mm, 83.5000 mm): Pad 1 [COL3] of D18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 82.7500 mm): Rectangle of D19 on f.silkscreen
+    @(83.1500 mm, 83.5000 mm): Pad 2 [D19_A] of D19 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.6500 mm, 82.7500 mm): Rectangle of D19 on f.silkscreen
+    @(80.8500 mm, 83.5000 mm): Pad 1 [COL4] of D19 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 82.7500 mm): Rectangle of D16 on f.silkscreen
+    @(26.1500 mm, 83.5000 mm): Pad 2 [D16_A] of D16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 82.7500 mm): Rectangle of D16 on f.silkscreen
+    @(23.8500 mm, 83.5000 mm): Pad 1 [COL1] of D16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 25.7500 mm): Rectangle of D03 on f.silkscreen
+    @(64.1500 mm, 26.5000 mm): Pad 2 [D03_A] of D03 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 25.7500 mm): Rectangle of D03 on f.silkscreen
+    @(61.8500 mm, 26.5000 mm): Pad 1 [COL3] of D03 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 25.7500 mm): Rectangle of D02 on f.silkscreen
+    @(45.1500 mm, 26.5000 mm): Pad 2 [D02_A] of D02 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 44.7500 mm): Rectangle of D05 on f.silkscreen
+    @(45.1500 mm, 45.5000 mm): Pad 2 [D05_A] of D05 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 44.7500 mm): Rectangle of D06 on f.silkscreen
+    @(64.1500 mm, 45.5000 mm): Pad 2 [D06_A] of D06 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.6500 mm, 44.7500 mm): Rectangle of D06 on f.silkscreen
+    @(61.8500 mm, 45.5000 mm): Pad 1 [COL3] of D06 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 44.7500 mm): Rectangle of D04 on f.silkscreen
+    @(26.1500 mm, 45.5000 mm): Pad 2 [D04_A] of D04 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 44.7500 mm): Rectangle of D04 on f.silkscreen
+    @(23.8500 mm, 45.5000 mm): Pad 1 [COL1] of D04 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 25.7500 mm): Rectangle of D01 on f.silkscreen
+    @(26.1500 mm, 26.5000 mm): Pad 2 [D01_A] of D01 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.6500 mm, 25.7500 mm): Rectangle of D01 on f.silkscreen
+    @(23.8500 mm, 26.5000 mm): Pad 1 [COL1] of D01 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.6500 mm, 44.7500 mm): Rectangle of D05 on f.silkscreen
+    @(42.8500 mm, 45.5000 mm): Pad 1 [COL2] of D05 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

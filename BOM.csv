@@ -1,0 +1,4 @@
+﻿References,Quantity,Value,Package,Assembly,JLCPCB/LCSC part,Notes
+D01-D27,27,1N4148WS,SOD-323,JLCPCB SMT,C493187,JLCPCB listing; verify stock at order time
+SW01-SW27,27,DTS-24N,THT 4-hole,Hand solder,,DTS-2 datasheet footprint; 1.2 mm holes
+U1,1,Pro Micro USB-C 5V/16MHz,24-pin THT module,Hand solder / socket,Amazon B0DMNBJHT7,Assumed classic Pro Micro 2.54 mm hole pattern; verify actual clone

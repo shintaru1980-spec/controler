@@ -1,0 +1,2824 @@
+** Drc report for ATmega32U4_27Button.kicad_pcb **
+** Created on 2026-11-06T11:38:07 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 705 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(122.0000 mm, 19.5000 mm): Track [ROW1] on B.Cu, length 18.5000 mm
+    @(119.0000 mm, 12.4000 mm): Track [ICSP_SCK] on B.Cu, length 6.5000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(122.5000 mm, 12.0000 mm): Track [+5V] on B.Cu, length 25.0000 mm
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(120.0000 mm, 6.0000 mm): Track [ICSP_MISO] on B.Cu, length 7.2000 mm
+    @(119.0000 mm, 12.4000 mm): Track [ICSP_SCK] on B.Cu, length 6.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 5.5500 mm): Track [+5V] on B.Cu, length 7.5450 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 5.5500 mm): Track [+5V] on B.Cu, length 4.8500 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と RESET)
+    Local override; error
+    @(114.5400 mm, 10.5400 mm): PTH pad 6 [GND] of J2
+    @(112.0000 mm, 10.5400 mm): Track [RESET] on B.Cu, length 6.0000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_MOSI と ICSP_SCK)
+    Local override; error
+    @(114.5400 mm, 8.0000 mm): PTH pad 4 [ICSP_MOSI] of J2
+    @(112.0000 mm, 8.0000 mm): Track [ICSP_SCK] on B.Cu, length 7.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(119.0000 mm, 12.4000 mm): Track [ICSP_SCK] on B.Cu, length 6.5000 mm
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_MISO と ICSP_MOSI)
+    Local override; error
+    @(125.5000 mm, 14.0000 mm): Via [ICSP_MISO] on F.Cu - B.Cu
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ICSP_MISO)
+    Local override; error
+    @(114.5400 mm, 5.4600 mm): PTH pad 2 [+5V] of J2
+    @(112.0000 mm, 6.0000 mm): Track [ICSP_MISO] on B.Cu, length 8.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(121.0000 mm, 17.8000 mm): Track [HWB] on B.Cu, length 5.0000 mm
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(132.0000 mm, 16.5000 mm): Track [XTAL1] on F.Cu, length 3.4000 mm
+    @(131.2000 mm, 16.5000 mm): Track [XTAL2] on F.Cu, length 3.8419 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(121.0000 mm, 6.0000 mm): Track [HWB] on B.Cu, length 11.8000 mm
+    @(120.0000 mm, 13.2000 mm): Track [ICSP_MISO] on B.Cu, length 5.5579 mm
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1038 mm)
+    Local override; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と UCAP)
+    Local override; error
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+    @(125.5000 mm, 10.0000 mm): Track [UCAP] on F.Cu, length 12.5399 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット HWB と +5V)
+    Local override; error
+    @(126.0000 mm, 17.8000 mm): Track [HWB] on F.Cu, length 6.0531 mm
+    @(125.0000 mm, 17.8000 mm): Via [+5V] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(125.0000 mm, 17.8000 mm): Pad 2 [+5V] of R3 on F.Cu
+    @(126.0000 mm, 17.8000 mm): Via [HWB] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と XTAL2)
+    Local override; error
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+    @(131.2000 mm, 16.5000 mm): Track [XTAL2] on F.Cu, length 3.8419 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(138.5000 mm, 6.0000 mm): Track [HWB] on B.Cu, length 17.5000 mm
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット RESET と +5V)
+    Local override; error
+    @(128.8000 mm, 16.5000 mm): Track [RESET] on F.Cu, length 5.9439 mm
+    @(125.0000 mm, 17.8000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット HWB と ROW5)
+    Local override; error
+    @(126.0000 mm, 17.8000 mm): Via [HWB] on F.Cu - B.Cu
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D- と USB_CC1)
+    Local override; error
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 9.2500 mm): Track [USB_CC1] on F.Cu, length 1.0450 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(128.0000 mm, 17.8000 mm): Track [+5V] on B.Cu, length 19.5000 mm
+    @(128.0000 mm, 114.0000 mm): Track [COL1] on B.Cu, length 97.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC2 と <ネットなし>)
+    Local override; error
+    @(139.9550 mm, 6.2500 mm): Track [USB_CC2] on F.Cu, length 1.0450 mm
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット <ネットなし> と HWB)
+    Local override; error
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 6.0000 mm): Via [HWB] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 17.8000 mm): Track [+5V] on B.Cu, length 17.1000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(143.0000 mm, 6.2500 mm): Via [+5V] on F.Cu - B.Cu
+    @(143.0000 mm, 6.2500 mm): Pad 2 [GND] of R2 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 9.2500 mm): Track [+5V] on B.Cu, length 8.5500 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 6.2500 mm): Track [+5V] on B.Cu, length 5.5500 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(143.0000 mm, 9.2500 mm): Pad 2 [GND] of R1 on F.Cu
+    @(143.0000 mm, 9.2500 mm): Via [+5V] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(125.0000 mm, 17.8000 mm): Track [+5V] on B.Cu, length 22.5000 mm
+    @(135.2000 mm, 106.0000 mm): Track [COL5] on B.Cu, length 89.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_MISO と ROW5)
+    Local override; error
+    @(125.5000 mm, 14.0000 mm): Via [ICSP_MISO] on F.Cu - B.Cu
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と COL1)
+    Local override; error
+    @(128.0000 mm, 17.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(128.0000 mm, 114.0000 mm): Track [COL1] on B.Cu, length 97.5000 mm
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 17.8000 mm): Track [+5V] on B.Cu, length 17.1000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 12.0000 mm): Track [+5V] on B.Cu, length 11.3000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 5.5500 mm): Track [+5V] on B.Cu, length 4.8500 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(122.5000 mm, 7.0000 mm): Track [+5V] on B.Cu, length 25.0000 mm
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(126.0000 mm, 17.8000 mm): Pad 1 [HWB] of R4 on F.Cu
+    @(125.0000 mm, 17.8000 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 7.0000 mm): Track [+5V] on B.Cu, length 6.3000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(128.0000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 19.5000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 2.8000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ROW4)
+    Local override; error
+    @(125.0000 mm, 17.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(125.0000 mm, 76.5000 mm): Track [ROW4] on B.Cu, length 74.3000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ROW2)
+    Local override; error
+    @(122.5000 mm, 7.0000 mm): Via [+5V] on F.Cu - B.Cu
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(138.5000 mm, 13.2000 mm): Track [+5V] on B.Cu, length 9.0000 mm
+    @(140.8700 mm, 12.3200 mm): PTH pad SH1 [GND] of J1
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 13.2000 mm): Track [+5V] on B.Cu, length 12.5000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット <ネットなし> と ICSP_SCK)
+    Local override; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 12.4000 mm): Via [ICSP_SCK] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+    @(138.5000 mm, 13.2000 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 16.5000 mm): Track [+5V] on B.Cu, length 15.8000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(129.6000 mm, 16.5000 mm): Track [+5V] on B.Cu, length 17.9000 mm
+    @(133.6000 mm, 110.0000 mm): Track [COL3] on B.Cu, length 93.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と RESET)
+    Local override; error
+    @(129.6000 mm, 16.5000 mm): Via [+5V] on F.Cu - B.Cu
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_SCK と ROW5)
+    Local override; error
+    @(125.5000 mm, 12.4000 mm): Via [ICSP_SCK] on F.Cu - B.Cu
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(125.5000 mm, 10.8000 mm): Track [+5V] on B.Cu, length 22.0000 mm
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(125.5000 mm, 6.8000 mm): Track [+5V] on B.Cu, length 22.0000 mm
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 6.8000 mm): Track [+5V] on B.Cu, length 6.1000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D- と +5V)
+    Local override; error
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 10.4500 mm): Track [+5V] on B.Cu, length 9.7500 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット UCAP と +5V)
+    Local override; error
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 5.5500 mm): Track [+5V] on B.Cu, length 7.5450 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ROW5)
+    Local override; error
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 10.4500 mm): Track [+5V] on B.Cu, length 9.7500 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ROW1)
+    Local override; error
+    @(121.0000 mm, 0.7000 mm): Track [+5V] on B.Cu, length 28.0000 mm
+    @(122.0000 mm, 1.0000 mm): Via [ROW1] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と USB_D-)
+    Local override; error
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+    @(124.5000 mm, 7.6000 mm): Track [USB_D-] on F.Cu, length 1.0000 mm
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0250 mm)
+    Local override; error
+    @(124.5000 mm, 7.0000 mm): Pad 2 [GND] of C1 on F.Cu
+    @(124.5000 mm, 7.7500 mm): Track [USB_D-] on F.Cu, length 0.1500 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と USB_D-)
+    Local override; error
+    @(124.5000 mm, 7.0000 mm): Pad 2 [GND] of C1 on F.Cu
+    @(124.5000 mm, 7.7500 mm): Via [USB_D-] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_MISO と ICSP_MOSI)
+    Local override; error
+    @(125.5000 mm, 14.0000 mm): Pad 11 [ICSP_MISO] of U1 on F.Cu
+    @(116.0000 mm, 13.2000 mm): Track [ICSP_MOSI] on F.Cu, length 9.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+    @(128.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 10.8000 mm): Track [+5V] on B.Cu, length 10.1000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と USB_D-)
+    Local override; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.9550 mm
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ROW2)
+    Local override; error
+    @(122.5000 mm, 12.0000 mm): Via [+5V] on F.Cu - B.Cu
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D- と ROW4)
+    Local override; error
+    @(124.5000 mm, 7.7500 mm): Via [USB_D-] on F.Cu - B.Cu
+    @(125.0000 mm, 76.5000 mm): Track [ROW4] on B.Cu, length 74.3000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL6 と COL5)
+    Local override; error
+    @(136.0000 mm, 16.5000 mm): Via [COL6] on F.Cu - B.Cu
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と USB_D-)
+    Local override; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.0000 mm
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(147.5000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 2.8000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL5 と COL4)
+    Local override; error
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と USB_D-)
+    Local override; error
+    @(138.0000 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 12.5009 mm
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL3 と COL4)
+    Local override; error
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(134.4000 mm, 108.0000 mm): Track [COL4] on B.Cu, length 91.5000 mm
+    @(129.6000 mm, 16.5000 mm): Track [+5V] on B.Cu, length 17.9000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL5 と COL4)
+    Local override; error
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL3 と COL4)
+    Local override; error
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(133.6000 mm, 110.0000 mm): Track [COL3] on B.Cu, length 93.5000 mm
+    @(125.0000 mm, 17.8000 mm): Track [+5V] on B.Cu, length 22.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL3 と COL4)
+    Local override; error
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL2 と COL3)
+    Local override; error
+    @(132.8000 mm, 16.5000 mm): Via [COL2] on F.Cu - B.Cu
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(132.8000 mm, 112.0000 mm): Track [COL2] on B.Cu, length 95.5000 mm
+    @(129.6000 mm, 16.5000 mm): Track [+5V] on B.Cu, length 17.9000 mm
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(136.0000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 11.5000 mm
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(128.0000 mm, 114.0000 mm): Track [COL1] on B.Cu, length 97.5000 mm
+    @(125.0000 mm, 17.8000 mm): Track [+5V] on B.Cu, length 22.5000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL2 と COL3)
+    Local override; error
+    @(132.8000 mm, 16.5000 mm): Via [COL2] on F.Cu - B.Cu
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL1 と RESET)
+    Local override; error
+    @(128.0000 mm, 16.5000 mm): Via [COL1] on F.Cu - B.Cu
+    @(128.8000 mm, 16.5000 mm): Track [RESET] on F.Cu, length 5.9439 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL6 と COL5)
+    Local override; error
+    @(136.0000 mm, 16.5000 mm): Via [COL6] on F.Cu - B.Cu
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+    @(136.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(137.0000 mm, 7.7500 mm): Track [USB_D-] on B.Cu, length 12.5000 mm
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW5 と ROW4)
+    Local override; error
+    @(126.0000 mm, 2.6000 mm): Via [ROW5] on F.Cu - B.Cu
+    @(125.0000 mm, 2.2000 mm): Track [ROW4] on F.Cu, length 7.0000 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW5 と +5V)
+    Local override; error
+    @(126.0000 mm, 95.5000 mm): Track [ROW5] on B.Cu, length 92.9000 mm
+    @(125.5000 mm, 10.8000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW4 と +5V)
+    Local override; error
+    @(125.0000 mm, 76.5000 mm): Track [ROW4] on B.Cu, length 74.3000 mm
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW3 と ROW2)
+    Local override; error
+    @(124.0000 mm, 1.8000 mm): Via [ROW3] on F.Cu - B.Cu
+    @(123.0000 mm, 1.4000 mm): Track [ROW2] on F.Cu, length 10.6000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(123.0000 mm, 38.5000 mm): Track [ROW2] on B.Cu, length 37.1000 mm
+    @(120.0000 mm, 13.2000 mm): Track [ICSP_MISO] on B.Cu, length 5.5579 mm
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW1 と ROW2)
+    Local override; error
+    @(122.0000 mm, 1.0000 mm): Track [ROW1] on F.Cu, length 12.4000 mm
+    @(123.0000 mm, 1.4000 mm): Via [ROW2] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW3 と ROW4)
+    Local override; error
+    @(124.0000 mm, 1.8000 mm): Track [ROW3] on F.Cu, length 8.8000 mm
+    @(125.0000 mm, 2.2000 mm): Via [ROW4] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(126.0000 mm, 2.6000 mm): Track [ROW5] on F.Cu, length 5.2000 mm
+    @(125.0000 mm, 2.2000 mm): Track [ROW4] on F.Cu, length 7.0000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(124.0000 mm, 57.5000 mm): Track [ROW3] on B.Cu, length 55.7000 mm
+    @(120.0000 mm, 13.2000 mm): Track [ICSP_MISO] on B.Cu, length 5.5579 mm
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(136.0000 mm, 3.0000 mm): Pad 1 [AREF] of C4 on F.Cu
+    @(136.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1000 mm)
+    Local override; error
+    @(126.0000 mm, 17.8000 mm): Pad 1 [HWB] of R4 on F.Cu
+    @(125.0000 mm, 17.8000 mm): Pad 2 [+5V] of R3 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(143.0000 mm, 9.2500 mm): Pad 2 [GND] of R1 on F.Cu
+    @(143.0000 mm, 9.2500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 6.0000 mm): Pad 1 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 6.8000 mm): Pad 2 [+5V] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(143.0000 mm, 6.2500 mm): Pad 2 [GND] of R2 on F.Cu
+    @(143.0000 mm, 6.2500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC1 と USB_D-)
+    Local override; error
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC1 と +5V)
+    Local override; error
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC1 と +5V)
+    Local override; error
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC1 と USB_D+)
+    Local override; error
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+    @(139.9550 mm, 8.2500 mm): Pad A6 [USB_D+] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と USB_D-)
+    Local override; error
+    @(139.9550 mm, 8.2500 mm): Pad A6 [USB_D+] of J1 on F.Cu
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と USB_D-)
+    Local override; error
+    @(139.9550 mm, 8.2500 mm): Pad A6 [USB_D+] of J1 on F.Cu
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D- と USB_D+)
+    Local override; error
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 7.2500 mm): Pad B6 [USB_D+] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 7.2500 mm): Pad B6 [USB_D+] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(124.5000 mm, 7.0000 mm): Pad 2 [GND] of C1 on F.Cu
+    @(124.5000 mm, 7.7500 mm): Via [USB_D-] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 6.0000 mm): Pad 1 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 6.0000 mm): Pad 1 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と USB_D-)
+    Local override; error
+    @(125.5000 mm, 6.8000 mm): Pad 2 [+5V] of U1 on F.Cu
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と USB_D+)
+    Local override; error
+    @(125.5000 mm, 6.8000 mm): Pad 2 [+5V] of U1 on F.Cu
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D- と USB_D+)
+    Local override; error
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_D+ と UCAP)
+    Local override; error
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と USB_D-)
+    Local override; error
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と USB_D+)
+    Local override; error
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と UCAP)
+    Local override; error
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット UCAP と +5V)
+    Local override; error
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Via [+5V] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Via [+5V] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 12.4000 mm): Via [ICSP_SCK] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC2 と USB_D+)
+    Local override; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 7.2500 mm): Pad B6 [USB_D+] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC2 と +5V)
+    Local override; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_CC2 と +5V)
+    Local override; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_SCK と +5V)
+    Local override; error
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_SCK と ICSP_MOSI)
+    Local override; error
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_SCK と ICSP_MISO)
+    Local override; error
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+    @(125.5000 mm, 14.0000 mm): Pad 11 [ICSP_MISO] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+    @(125.5000 mm, 14.0000 mm): Via [ICSP_MISO] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ICSP_MOSI と ICSP_MISO)
+    Local override; error
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+    @(125.5000 mm, 14.0000 mm): Pad 11 [ICSP_MISO] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+    @(125.5000 mm, 12.4000 mm): Via [ICSP_SCK] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL1 と RESET)
+    Local override; error
+    @(128.0000 mm, 16.5000 mm): Pad 12 [COL1] of U1 on F.Cu
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL1 と +5V)
+    Local override; error
+    @(128.0000 mm, 16.5000 mm): Pad 12 [COL1] of U1 on F.Cu
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+    @(128.0000 mm, 16.5000 mm): Via [COL1] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+    @(129.6000 mm, 16.5000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット RESET と GND)
+    Local override; error
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と RESET)
+    Local override; error
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と XTAL2)
+    Local override; error
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+    @(129.6000 mm, 16.5000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と XTAL2)
+    Local override; error
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット XTAL2 と COL2)
+    Local override; error
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Via [COL2] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット XTAL1 と COL3)
+    Local override; error
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット XTAL1 と COL2)
+    Local override; error
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット XTAL1 と GND)
+    Local override; error
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット XTAL1 と XTAL2)
+    Local override; error
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Via [COL2] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL3 と COL5)
+    Local override; error
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL3 と COL2)
+    Local override; error
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL4 と COL3)
+    Local override; error
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL4 と COL5)
+    Local override; error
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL4 と COL2)
+    Local override; error
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+    @(136.0000 mm, 16.5000 mm): Via [COL6] on F.Cu - B.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(136.0000 mm, 16.5000 mm): Pad 22 [COL6] of U1 on F.Cu
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL6 と COL4)
+    Local override; error
+    @(136.0000 mm, 16.5000 mm): Pad 22 [COL6] of U1 on F.Cu
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット COL6 と COL5)
+    Local override; error
+    @(136.0000 mm, 16.5000 mm): Pad 22 [COL6] of U1 on F.Cu
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+    @(138.5000 mm, 13.2000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(138.5000 mm, 13.2000 mm): Pad 24 [+5V] of U1 on F.Cu
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 13.2000 mm): Pad 24 [+5V] of U1 on F.Cu
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 13.2000 mm): Pad 24 [+5V] of U1 on F.Cu
+    @(138.5000 mm, 11.6000 mm): Pad 26 [<no net>] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 13.2000 mm): Via [+5V] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 11.6000 mm): Pad 26 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 11.6000 mm): Pad 26 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 10.0000 mm): Pad 28 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 10.8000 mm): Pad 27 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 10.8000 mm): Pad 27 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 11.6000 mm): Pad 26 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 10.8000 mm): Pad 27 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 10.0000 mm): Pad 28 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 10.8000 mm): Pad 27 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 9.2000 mm): Pad 29 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 9.2000 mm): Pad 29 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 10.0000 mm): Pad 28 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 9.2000 mm): Pad 29 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 9.2000 mm): Pad 29 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 10.0000 mm): Pad 28 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 6.0000 mm): Pad 33 [HWB] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 6.0000 mm): Via [HWB] on F.Cu - B.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(138.5000 mm, 6.0000 mm): Pad 33 [HWB] of U1 on F.Cu
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と GND)
+    Local override; error
+    @(136.0000 mm, 3.5000 mm): Pad 34 [+5V] of U1 on F.Cu
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と ROW1)
+    Local override; error
+    @(136.0000 mm, 3.5000 mm): Pad 34 [+5V] of U1 on F.Cu
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット +5V と AREF)
+    Local override; error
+    @(136.0000 mm, 3.5000 mm): Pad 34 [+5V] of U1 on F.Cu
+    @(136.0000 mm, 3.0000 mm): Pad 1 [AREF] of C4 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+    @(136.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と AREF)
+    Local override; error
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+    @(136.0000 mm, 3.0000 mm): Pad 1 [AREF] of C4 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW1 と GND)
+    Local override; error
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW2 と GND)
+    Local override; error
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW2 と ROW1)
+    Local override; error
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW2 と ROW3)
+    Local override; error
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW2 と ROW4)
+    Local override; error
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW3 と ROW1)
+    Local override; error
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW3 と ROW4)
+    Local override; error
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW5 と ROW3)
+    Local override; error
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW5 と ROW4)
+    Local override; error
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット ROW5 と AREF)
+    Local override; error
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+    @(129.6000 mm, 3.5000 mm): Pad 42 [AREF] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(129.6000 mm, 3.5000 mm): Pad 42 [AREF] of U1 on F.Cu
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット AREF と +5V)
+    Local override; error
+    @(129.6000 mm, 3.5000 mm): Pad 42 [AREF] of U1 on F.Cu
+    @(128.0000 mm, 3.5000 mm): Pad 44 [+5V] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と AREF)
+    Local override; error
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+    @(129.6000 mm, 3.5000 mm): Pad 42 [AREF] of U1 on F.Cu
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と +5V)
+    Local override; error
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+    @(128.0000 mm, 3.5000 mm): Pad 44 [+5V] of U1 on F.Cu
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.0000 mm)
+    Local override; error
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+    @(128.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+[npth_inside_courtyard]: NPTH inside courtyard
+    Local override; error
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+    @(144.0000 mm, 8.0000 mm): Footprint J1
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.4500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(121.0000 mm, 0.7000 mm): Track [+5V] on B.Cu, length 28.0000 mm
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on F.Cu, priority 0
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on F.Cu, priority 0
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on B.Cu, priority 0
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(112.0000 mm, 10.5400 mm): Track [RESET] on B.Cu, length 6.0000 mm
+    @(114.5400 mm, 10.5400 mm): PTH pad 6 [GND] of J2
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(143.0000 mm, 9.2500 mm): Via [+5V] on F.Cu - B.Cu
+    @(143.0000 mm, 9.2500 mm): Pad 2 [GND] of R1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(143.0000 mm, 6.2500 mm): Via [+5V] on F.Cu - B.Cu
+    @(143.0000 mm, 6.2500 mm): Pad 2 [GND] of R2 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 9.2500 mm): Track [USB_CC1] on F.Cu, length 1.0450 mm
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 9.2500 mm): Track [USB_CC1] on F.Cu, length 1.0450 mm
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 6.2500 mm): Track [USB_CC2] on F.Cu, length 1.0450 mm
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 6.2500 mm): Track [USB_CC2] on F.Cu, length 1.0450 mm
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 6.2500 mm): Track [USB_CC2] on F.Cu, length 1.0450 mm
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.8000 mm, 16.5000 mm): Track [RESET] on F.Cu, length 5.9439 mm
+    @(125.0000 mm, 17.8000 mm): Pad 2 [+5V] of R3 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.8000 mm, 16.5000 mm): Track [RESET] on F.Cu, length 5.9439 mm
+    @(128.0000 mm, 16.5000 mm): Pad 12 [COL1] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.8000 mm, 16.5000 mm): Track [RESET] on F.Cu, length 5.9439 mm
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 6.0000 mm): Via [HWB] on F.Cu - B.Cu
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(126.0000 mm, 17.8000 mm): Track [HWB] on F.Cu, length 6.0531 mm
+    @(123.0000 mm, 17.8000 mm): Pad 1 [RESET] of R3 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(126.0000 mm, 17.8000 mm): Track [HWB] on F.Cu, length 6.0531 mm
+    @(125.0000 mm, 17.8000 mm): Pad 2 [+5V] of R3 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.0000 mm, 16.5000 mm): Track [XTAL1] on F.Cu, length 3.4000 mm
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.0000 mm, 16.5000 mm): Track [XTAL1] on F.Cu, length 3.4000 mm
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(131.2000 mm, 16.5000 mm): Track [XTAL2] on F.Cu, length 3.8419 mm
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(131.2000 mm, 16.5000 mm): Track [XTAL2] on F.Cu, length 3.8419 mm
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 10.0000 mm): Track [UCAP] on F.Cu, length 12.5399 mm
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 10.0000 mm): Track [UCAP] on F.Cu, length 12.5399 mm
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Track [AREF] on F.Cu, length 6.4195 mm
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(112.0000 mm, 6.0000 mm): Track [ICSP_MISO] on B.Cu, length 8.0000 mm
+    @(114.5400 mm, 5.4600 mm): PTH pad 2 [+5V] of J2
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 14.0000 mm): Via [ICSP_MISO] on F.Cu - B.Cu
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(112.0000 mm, 8.0000 mm): Track [ICSP_SCK] on B.Cu, length 7.0000 mm
+    @(114.5400 mm, 8.0000 mm): PTH pad 4 [ICSP_MOSI] of J2
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 12.4000 mm): Via [ICSP_SCK] on F.Cu - B.Cu
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 12.4000 mm): Via [ICSP_SCK] on F.Cu - B.Cu
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(116.0000 mm, 13.2000 mm): Track [ICSP_MOSI] on F.Cu, length 9.5000 mm
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(116.0000 mm, 13.2000 mm): Track [ICSP_MOSI] on F.Cu, length 9.5000 mm
+    @(125.5000 mm, 14.0000 mm): Pad 11 [ICSP_MISO] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.0000 mm
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.0000 mm
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.0000 mm
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.9550 mm
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.9550 mm
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.9550 mm
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 1.9550 mm
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.0000 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 12.5009 mm
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.0000 mm, 8.2500 mm): Track [USB_D+] on F.Cu, length 12.5009 mm
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(124.5000 mm, 7.7500 mm): Via [USB_D-] on F.Cu - B.Cu
+    @(124.5000 mm, 7.0000 mm): Pad 2 [GND] of C1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(124.5000 mm, 7.6000 mm): Track [USB_D-] on F.Cu, length 1.0000 mm
+    @(125.5000 mm, 6.8000 mm): Pad 2 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(124.5000 mm, 7.6000 mm): Track [USB_D-] on F.Cu, length 1.0000 mm
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 4.7500 mm): Pad A12 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 4.7500 mm): Pad B1 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 5.5500 mm): Pad B4 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 5.5500 mm): Pad A9 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(125.5000 mm, 6.0000 mm): Pad 1 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 6.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 6.2500 mm): Pad B5 [USB_CC2] of J1 on F.Cu
+    @(139.9550 mm, 7.2500 mm): Pad B6 [USB_D+] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 10.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 10.8000 mm): Via [+5V] on F.Cu - B.Cu
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 7.2500 mm): Pad B6 [USB_D+] of J1 on F.Cu
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 7.2500 mm): Pad B6 [USB_D+] of J1 on F.Cu
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 16.5000 mm): Via [+5V] on F.Cu - B.Cu
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 16.5000 mm): Via [+5V] on F.Cu - B.Cu
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 13.2000 mm): Via [+5V] on F.Cu - B.Cu
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 13.2000 mm): Via [+5V] on F.Cu - B.Cu
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 13.2000 mm): Track [+5V] on B.Cu, length 9.0000 mm
+    @(145.0500 mm, 12.3200 mm): PTH pad SH2 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.0000 mm, 16.5000 mm): Via [COL1] on F.Cu - B.Cu
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 8.2500 mm): Pad A6 [USB_D+] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 13.2000 mm): Track [+5V] on B.Cu, length 9.0000 mm
+    @(140.8700 mm, 12.3200 mm): PTH pad SH1 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.8000 mm, 16.5000 mm): Via [COL2] on F.Cu - B.Cu
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+    @(136.0000 mm, 3.0000 mm): Pad 1 [AREF] of C4 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.8000 mm, 16.5000 mm): Via [COL2] on F.Cu - B.Cu
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 11.5000 mm
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 9.7500 mm): Pad B8 [<no net>] of J1 on F.Cu
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 11.5000 mm
+    @(140.8700 mm, 3.6800 mm): PTH pad SH3 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.0000 mm, 3.5000 mm): Via [+5V] on F.Cu - B.Cu
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(133.6000 mm, 16.5000 mm): Via [COL3] on F.Cu - B.Cu
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.0000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 19.5000 mm
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 6.0000 mm): Pad 1 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 6.8000 mm): Pad 2 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 10.4500 mm): Pad B9 [+5V] of J1 on F.Cu
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.0000 mm, 3.5000 mm): Track [+5V] on B.Cu, length 19.5000 mm
+    @(140.8700 mm, 3.6800 mm): PTH pad SH3 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 11.2500 mm): Pad B12 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 6.8000 mm): Pad 2 [+5V] of U1 on F.Cu
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(134.4000 mm, 16.5000 mm): Via [COL4] on F.Cu - B.Cu
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(122.5000 mm, 12.0000 mm): Track [+5V] on B.Cu, length 25.0000 mm
+    @(145.0500 mm, 12.3200 mm): PTH pad SH2 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(122.5000 mm, 12.0000 mm): Track [+5V] on B.Cu, length 25.0000 mm
+    @(140.8700 mm, 12.3200 mm): PTH pad SH1 [GND] of J1
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 7.6000 mm): Pad 3 [USB_D-] of U1 on F.Cu
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+    @(136.0000 mm, 16.5000 mm): Pad 22 [COL6] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(135.2000 mm, 16.5000 mm): Via [COL5] on F.Cu - B.Cu
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 8.4000 mm): Pad 4 [USB_D+] of U1 on F.Cu
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 16.5000 mm): Via [COL6] on F.Cu - B.Cu
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 10.0000 mm): Pad 6 [UCAP] of U1 on F.Cu
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 10.8000 mm): Pad 7 [+5V] of U1 on F.Cu
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 11.6000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 12.4000 mm): Pad 9 [ICSP_SCK] of U1 on F.Cu
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(125.5000 mm, 13.2000 mm): Pad 10 [ICSP_MOSI] of U1 on F.Cu
+    @(125.5000 mm, 14.0000 mm): Pad 11 [ICSP_MISO] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.0000 mm, 16.5000 mm): Pad 12 [COL1] of U1 on F.Cu
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.8000 mm, 16.5000 mm): Pad 13 [RESET] of U1 on F.Cu
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 16.5000 mm): Pad 14 [+5V] of U1 on F.Cu
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(131.2000 mm, 16.5000 mm): Pad 16 [XTAL2] of U1 on F.Cu
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.0000 mm, 16.5000 mm): Pad 17 [XTAL1] of U1 on F.Cu
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.8000 mm, 16.5000 mm): Pad 18 [COL2] of U1 on F.Cu
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(133.6000 mm, 16.5000 mm): Pad 19 [COL3] of U1 on F.Cu
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.0000 mm): Pad 1 [AREF] of C4 on F.Cu
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(134.4000 mm, 16.5000 mm): Pad 20 [COL4] of U1 on F.Cu
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.0000 mm): Pad 1 [AREF] of C4 on F.Cu
+    @(136.0000 mm, 3.5000 mm): Pad 34 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(135.2000 mm, 16.5000 mm): Pad 21 [COL5] of U1 on F.Cu
+    @(136.0000 mm, 16.5000 mm): Pad 22 [COL6] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+    @(138.5000 mm, 13.2000 mm): Pad 24 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 13.2000 mm): Pad 24 [+5V] of U1 on F.Cu
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 11.6000 mm): Pad 26 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 11.6000 mm): Pad 26 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 10.8000 mm): Pad 27 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 10.8000 mm): Pad 27 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 10.0000 mm): Pad 28 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 10.0000 mm): Pad 28 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 9.2000 mm): Pad 29 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 9.2000 mm): Pad 29 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 8.4000 mm): Pad 30 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 7.6000 mm): Pad 31 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(138.5000 mm, 6.8000 mm): Pad 32 [<no net>] of U1 on F.Cu
+    @(138.5000 mm, 6.0000 mm): Pad 33 [HWB] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(136.0000 mm, 3.5000 mm): Pad 34 [+5V] of U1 on F.Cu
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(130.4000 mm, 3.5000 mm): Pad 41 [<no net>] of U1 on F.Cu
+    @(129.6000 mm, 3.5000 mm): Pad 42 [AREF] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(129.6000 mm, 3.5000 mm): Pad 42 [AREF] of U1 on F.Cu
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+    @(128.0000 mm, 3.5000 mm): Pad 44 [+5V] of U1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 11.2500 mm): Pad A1 [GND] of J1 on F.Cu
+    @(139.9550 mm, 10.4500 mm): Pad A4 [+5V] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 9.2500 mm): Pad A5 [USB_CC1] of J1 on F.Cu
+    @(139.9550 mm, 8.2500 mm): Pad A6 [USB_D+] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 8.2500 mm): Pad A6 [USB_D+] of J1 on F.Cu
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクの開口部で接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(139.9550 mm, 7.7500 mm): Pad A7 [USB_D-] of J1 on F.Cu
+    @(139.9550 mm, 6.7500 mm): Pad A8 [<no net>] of J1 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(122.0000 mm, 1.0000 mm): Track [ROW1] on F.Cu, length 12.4000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(123.0000 mm, 1.4000 mm): Track [ROW2] on F.Cu, length 10.6000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(124.0000 mm, 1.8000 mm): Track [ROW3] on F.Cu, length 8.8000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(125.0000 mm, 2.2000 mm): Track [ROW4] on F.Cu, length 7.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(126.0000 mm, 2.6000 mm): Track [ROW5] on F.Cu, length 5.2000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(139.9550 mm, 7.7500 mm): Track [USB_D-] on B.Cu, length 1.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(121.0000 mm, 0.7000 mm): Track [+5V] on B.Cu, length 28.0000 mm
+[hole_to_hole]: ドリル穴と他の穴が近過ぎる (基板の設定の制約 最小 0.2500 mm; 現状 0.1000 mm)
+    Rule: 基板の設定の制約; warning
+    @(118.8500 mm, 104.0000 mm): Via [COL6] on F.Cu - B.Cu
+    @(118.8500 mm, 103.5000 mm): Via [COL6] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 10.4500 mm): Via [+5V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+    @(139.9550 mm, 5.5500 mm): Via [+5V] on F.Cu - B.Cu
+[hole_to_hole]: ドリル穴と他の穴が近過ぎる (基板の設定の制約 最小 0.2500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の制約; warning
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[lib_footprint_mismatch]: フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません
+    Local override; warning
+    @(4.0000 mm, 4.0000 mm): Footprint H1
+[lib_footprint_mismatch]: フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません
+    Local override; warning
+    @(146.0000 mm, 4.0000 mm): Footprint H2
+[lib_footprint_mismatch]: フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません
+    Local override; warning
+    @(4.0000 mm, 116.0000 mm): Footprint H3
+[lib_footprint_mismatch]: フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません
+    Local override; warning
+    @(146.0000 mm, 116.0000 mm): Footprint H4
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(25.0000 mm, 26.5000 mm): Footprint D01
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(44.0000 mm, 26.5000 mm): Footprint D02
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(63.0000 mm, 26.5000 mm): Footprint D03
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(25.0000 mm, 45.5000 mm): Footprint D04
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(44.0000 mm, 45.5000 mm): Footprint D05
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(63.0000 mm, 45.5000 mm): Footprint D06
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(82.0000 mm, 45.5000 mm): Footprint D07
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(101.0000 mm, 45.5000 mm): Footprint D08
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(120.0000 mm, 45.5000 mm): Footprint D09
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(25.0000 mm, 64.5000 mm): Footprint D10
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(44.0000 mm, 64.5000 mm): Footprint D11
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(63.0000 mm, 64.5000 mm): Footprint D12
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(82.0000 mm, 64.5000 mm): Footprint D13
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(101.0000 mm, 64.5000 mm): Footprint D14
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(120.0000 mm, 64.5000 mm): Footprint D15
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(25.0000 mm, 83.5000 mm): Footprint D16
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(44.0000 mm, 83.5000 mm): Footprint D17
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(63.0000 mm, 83.5000 mm): Footprint D18
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(82.0000 mm, 83.5000 mm): Footprint D19
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(101.0000 mm, 83.5000 mm): Footprint D20
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(120.0000 mm, 83.5000 mm): Footprint D21
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(25.0000 mm, 102.5000 mm): Footprint D22
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(44.0000 mm, 102.5000 mm): Footprint D23
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(63.0000 mm, 102.5000 mm): Footprint D24
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(82.0000 mm, 102.5000 mm): Footprint D25
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(101.0000 mm, 102.5000 mm): Footprint D26
+[lib_footprint_mismatch]: フットプリント 'D_SOD-323' が、ライブラリ 'Diode_SMD' のコピーと一致しません
+    Local override; warning
+    @(120.0000 mm, 102.5000 mm): Footprint D27
+[lib_footprint_mismatch]: フットプリント 'LQFP-44_10x10mm_P0.8mm' が、ライブラリ 'Package_QFP' のコピーと一致しません
+    Local override; warning
+    @(132.0000 mm, 10.0000 mm): Footprint U1
+[lib_footprint_mismatch]: フットプリント 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' が、ライブラリ 'Connector_USB' のコピーと一致しません
+    Local override; warning
+    @(144.0000 mm, 8.0000 mm): Footprint J1
+[lib_footprint_mismatch]: フットプリント 'PinHeader_2x03_P2.54mm_Vertical' が、ライブラリ 'Connector_PinHeader_2.54mm' のコピーと一致しません
+    Local override; warning
+    @(112.0000 mm, 8.0000 mm): Footprint J2
+[lib_footprint_issues]: フットプリント 'Crystal_SMD_5032-2Pin' がライブラリ'Crystal'に見つかりません
+    Local override; warning
+    @(132.0000 mm, 19.5000 mm): Footprint X1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(142.0000 mm, 9.2500 mm): Footprint R1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(142.0000 mm, 6.2500 mm): Footprint R2
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(124.0000 mm, 17.8000 mm): Footprint R3
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(127.0000 mm, 17.8000 mm): Footprint R4
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(123.5000 mm, 7.0000 mm): Footprint C1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(123.5000 mm, 12.0000 mm): Footprint C2
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(138.0000 mm, 15.0000 mm): Footprint C3
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(137.0000 mm, 3.0000 mm): Footprint C4
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(127.5000 mm, 19.5000 mm): Footprint C5
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(136.5000 mm, 19.5000 mm): Footprint C6
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Custom' が含まれていません
+    Local override; warning
+    @(145.0000 mm, 1.5000 mm): Footprint C7
+[lib_footprint_mismatch]: フットプリント 'TestPoint_Pad_D1.5mm' が、ライブラリ 'TestPoint' のコピーと一致しません
+    Local override; warning
+    @(120.0000 mm, 15.0000 mm): Footprint TP1
+[lib_footprint_mismatch]: フットプリント 'TestPoint_Pad_D1.5mm' が、ライブラリ 'TestPoint' のコピーと一致しません
+    Local override; warning
+    @(120.0000 mm, 17.0000 mm): Footprint TP2
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.7500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(75.0000 mm, 114.8000 mm): PCB text 'DTS-24N: pins 1-2=ROW, pins 3-4=diode anode' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(104.0000 mm, 5.0000 mm): PCB text 'PF0/ROW1' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(104.0000 mm, 6.6000 mm): PCB text 'PF1/ROW2' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(104.0000 mm, 8.2000 mm): PCB text 'PF4/ROW3' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(104.0000 mm, 9.8000 mm): PCB text 'PF5/ROW4' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(104.0000 mm, 11.4000 mm): PCB text 'PF6/ROW5' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(144.0000 mm, 104.0000 mm): PCB text 'PB7/COL1' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(144.0000 mm, 105.5000 mm): PCB text 'PD0/COL2' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(144.0000 mm, 107.0000 mm): PCB text 'PD1/COL3' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(144.0000 mm, 108.5000 mm): PCB text 'PD2/COL4' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(144.0000 mm, 110.0000 mm): PCB text 'PD3/COL5' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(144.0000 mm, 111.5000 mm): PCB text 'PD5/COL6' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(4.0000 mm, 19.5000 mm): PCB text 'ROW1' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(4.0000 mm, 38.5000 mm): PCB text 'ROW2' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(4.0000 mm, 57.5000 mm): PCB text 'ROW3' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(4.0000 mm, 76.5000 mm): PCB text 'ROW4' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(4.0000 mm, 95.5000 mm): PCB text 'ROW5' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(25.0000 mm, 109.0000 mm): PCB text 'COL1' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(44.0000 mm, 109.0000 mm): PCB text 'COL2' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(63.0000 mm, 109.0000 mm): PCB text 'COL3' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(82.0000 mm, 109.0000 mm): PCB text 'COL4' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(101.0000 mm, 109.0000 mm): PCB text 'COL5' on f.silkscreen
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6500 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(120.0000 mm, 109.0000 mm): PCB text 'COL6' on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(146.0000 mm, 113.8000 mm): Reference field of H4
+    @(144.0000 mm, 114.0000 mm): Rectangle of H4 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(4.0000 mm, 1.8000 mm): Reference field of H1
+    @(2.0000 mm, 2.0000 mm): Rectangle of H1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(2.0000 mm, 114.0000 mm): Rectangle of H3 on f.silkscreen
+    @(4.0000 mm, 113.8000 mm): Reference field of H3
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(138.0000 mm, 12.8000 mm): Reference field of C3
+    @(126.4000 mm, 4.4000 mm): Rectangle of U1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(136.5500 mm, 14.2500 mm): Rectangle of C3 on f.silkscreen
+    @(126.4000 mm, 4.4000 mm): Rectangle of U1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(127.0000 mm, 15.6000 mm): Reference field of R4
+    @(126.4000 mm, 4.4000 mm): Rectangle of U1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(125.5500 mm, 17.0500 mm): Rectangle of R4 on f.silkscreen
+    @(127.5000 mm, 17.3000 mm): Reference field of C5
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(122.5500 mm, 17.0500 mm): Rectangle of R3 on f.silkscreen
+    @(125.5500 mm, 17.0500 mm): Rectangle of R4 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(141.8000 mm, 8.0000 mm): Reference field of J1
+    @(140.5500 mm, 8.5000 mm): Rectangle of R1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(141.8000 mm, 8.0000 mm): Reference field of J1
+    @(142.0000 mm, 7.0500 mm): Reference field of R1
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(144.0000 mm, 2.0000 mm): Rectangle of H2 on f.silkscreen
+    @(146.0000 mm, 1.8000 mm): Reference field of H2
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(146.0000 mm, 1.8000 mm): Reference field of H2
+    @(143.5500 mm, 0.7500 mm): Rectangle of C7 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(144.0000 mm, 2.0000 mm): Rectangle of H2 on f.silkscreen
+    @(143.5500 mm, 0.7500 mm): Rectangle of C7 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(144.0000 mm, 2.0000 mm): Rectangle of H2 on f.silkscreen
+    @(139.0000 mm, 12.7000 mm): Rectangle of J1 on f.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(140.5500 mm, 5.5000 mm): Rectangle of R2 on f.silkscreen
+    @(142.0000 mm, 7.0500 mm): Reference field of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 25.6500 mm): Rectangle of D03 on f.silkscreen
+    @(64.1500 mm, 26.5000 mm): Pad 2 [D03_A] of D03 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 25.6500 mm): Rectangle of D03 on f.silkscreen
+    @(61.8500 mm, 26.5000 mm): Pad 1 [COL3] of D03 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 44.6500 mm): Rectangle of D06 on f.silkscreen
+    @(64.1500 mm, 45.5000 mm): Pad 2 [D06_A] of D06 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 44.6500 mm): Rectangle of D06 on f.silkscreen
+    @(61.8500 mm, 45.5000 mm): Pad 1 [COL3] of D06 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 37.7000 mm): Rectangle of SW07 on f.silkscreen
+    @(65.7500 mm, 38.5000 mm): PTH pad 1 [ROW2] of SW07
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 37.7000 mm): Rectangle of SW07 on f.silkscreen
+    @(78.2500 mm, 38.5000 mm): PTH pad 2 [ROW2] of SW07
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 37.7000 mm): Rectangle of SW07 on f.silkscreen
+    @(65.7500 mm, 43.5000 mm): PTH pad 3 [D07_A] of SW07
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 37.7000 mm): Rectangle of SW07 on f.silkscreen
+    @(78.2500 mm, 43.5000 mm): PTH pad 4 [D07_A] of SW07
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 44.6500 mm): Rectangle of D07 on f.silkscreen
+    @(83.1500 mm, 45.5000 mm): Pad 2 [D07_A] of D07 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 44.6500 mm): Rectangle of D07 on f.silkscreen
+    @(80.8500 mm, 45.5000 mm): Pad 1 [COL4] of D07 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 37.7000 mm): Rectangle of SW08 on f.silkscreen
+    @(84.7500 mm, 38.5000 mm): PTH pad 1 [ROW2] of SW08
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 37.7000 mm): Rectangle of SW08 on f.silkscreen
+    @(97.2500 mm, 38.5000 mm): PTH pad 2 [ROW2] of SW08
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 37.7000 mm): Rectangle of SW08 on f.silkscreen
+    @(84.7500 mm, 43.5000 mm): PTH pad 3 [D08_A] of SW08
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 37.7000 mm): Rectangle of SW08 on f.silkscreen
+    @(97.2500 mm, 43.5000 mm): PTH pad 4 [D08_A] of SW08
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 44.6500 mm): Rectangle of D08 on f.silkscreen
+    @(102.1500 mm, 45.5000 mm): Pad 2 [D08_A] of D08 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 44.6500 mm): Rectangle of D08 on f.silkscreen
+    @(99.8500 mm, 45.5000 mm): Pad 1 [COL5] of D08 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 18.7000 mm): Rectangle of SW01 on f.silkscreen
+    @(8.7500 mm, 19.5000 mm): PTH pad 1 [ROW1] of SW01
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 18.7000 mm): Rectangle of SW01 on f.silkscreen
+    @(21.2500 mm, 19.5000 mm): PTH pad 2 [ROW1] of SW01
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 18.7000 mm): Rectangle of SW01 on f.silkscreen
+    @(21.2500 mm, 24.5000 mm): PTH pad 4 [D01_A] of SW01
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 18.7000 mm): Rectangle of SW01 on f.silkscreen
+    @(8.7500 mm, 24.5000 mm): PTH pad 3 [D01_A] of SW01
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 37.7000 mm): Rectangle of SW04 on f.silkscreen
+    @(21.2500 mm, 38.5000 mm): PTH pad 2 [ROW2] of SW04
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 37.7000 mm): Rectangle of SW04 on f.silkscreen
+    @(8.7500 mm, 38.5000 mm): PTH pad 1 [ROW2] of SW04
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 37.7000 mm): Rectangle of SW04 on f.silkscreen
+    @(21.2500 mm, 43.5000 mm): PTH pad 4 [D04_A] of SW04
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 37.7000 mm): Rectangle of SW04 on f.silkscreen
+    @(8.7500 mm, 43.5000 mm): PTH pad 3 [D04_A] of SW04
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 56.7000 mm): Rectangle of SW10 on f.silkscreen
+    @(8.7500 mm, 57.5000 mm): PTH pad 1 [ROW3] of SW10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 56.7000 mm): Rectangle of SW10 on f.silkscreen
+    @(21.2500 mm, 57.5000 mm): PTH pad 2 [ROW3] of SW10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 18.7000 mm): Rectangle of SW02 on f.silkscreen
+    @(40.2500 mm, 19.5000 mm): PTH pad 2 [ROW1] of SW02
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 18.7000 mm): Rectangle of SW02 on f.silkscreen
+    @(40.2500 mm, 24.5000 mm): PTH pad 4 [D02_A] of SW02
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 25.6500 mm): Rectangle of D02 on f.silkscreen
+    @(45.1500 mm, 26.5000 mm): Pad 2 [D02_A] of D02 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 25.6500 mm): Rectangle of D02 on f.silkscreen
+    @(42.8500 mm, 26.5000 mm): Pad 1 [COL2] of D02 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 18.7000 mm): Rectangle of SW03 on f.silkscreen
+    @(59.2500 mm, 19.5000 mm): PTH pad 2 [ROW1] of SW03
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 18.7000 mm): Rectangle of SW03 on f.silkscreen
+    @(59.2500 mm, 24.5000 mm): PTH pad 4 [D03_A] of SW03
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 18.7000 mm): Rectangle of SW03 on f.silkscreen
+    @(46.7500 mm, 19.5000 mm): PTH pad 1 [ROW1] of SW03
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 18.7000 mm): Rectangle of SW03 on f.silkscreen
+    @(46.7500 mm, 24.5000 mm): PTH pad 3 [D03_A] of SW03
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 37.7000 mm): Rectangle of SW06 on f.silkscreen
+    @(59.2500 mm, 38.5000 mm): PTH pad 2 [ROW2] of SW06
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 37.7000 mm): Rectangle of SW06 on f.silkscreen
+    @(46.7500 mm, 38.5000 mm): PTH pad 1 [ROW2] of SW06
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 37.7000 mm): Rectangle of SW06 on f.silkscreen
+    @(59.2500 mm, 43.5000 mm): PTH pad 4 [D06_A] of SW06
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 37.7000 mm): Rectangle of SW06 on f.silkscreen
+    @(46.7500 mm, 43.5000 mm): PTH pad 3 [D06_A] of SW06
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 25.6500 mm): Rectangle of D01 on f.silkscreen
+    @(26.1500 mm, 26.5000 mm): Pad 2 [D01_A] of D01 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 25.6500 mm): Rectangle of D01 on f.silkscreen
+    @(23.8500 mm, 26.5000 mm): Pad 1 [COL1] of D01 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 44.6500 mm): Rectangle of D04 on f.silkscreen
+    @(26.1500 mm, 45.5000 mm): Pad 2 [D04_A] of D04 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 44.6500 mm): Rectangle of D04 on f.silkscreen
+    @(23.8500 mm, 45.5000 mm): Pad 1 [COL1] of D04 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 37.7000 mm): Rectangle of SW05 on f.silkscreen
+    @(27.7500 mm, 38.5000 mm): PTH pad 1 [ROW2] of SW05
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 37.7000 mm): Rectangle of SW05 on f.silkscreen
+    @(27.7500 mm, 43.5000 mm): PTH pad 3 [D05_A] of SW05
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 18.7000 mm): Rectangle of SW02 on f.silkscreen
+    @(27.7500 mm, 19.5000 mm): PTH pad 1 [ROW1] of SW02
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 18.7000 mm): Rectangle of SW02 on f.silkscreen
+    @(27.7500 mm, 24.5000 mm): PTH pad 3 [D02_A] of SW02
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 37.7000 mm): Rectangle of SW05 on f.silkscreen
+    @(40.2500 mm, 38.5000 mm): PTH pad 2 [ROW2] of SW05
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 37.7000 mm): Rectangle of SW05 on f.silkscreen
+    @(40.2500 mm, 43.5000 mm): PTH pad 4 [D05_A] of SW05
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 44.6500 mm): Rectangle of D05 on f.silkscreen
+    @(45.1500 mm, 45.5000 mm): Pad 2 [D05_A] of D05 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 44.6500 mm): Rectangle of D05 on f.silkscreen
+    @(42.8500 mm, 45.5000 mm): Pad 1 [COL2] of D05 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 37.7000 mm): Rectangle of SW09 on f.silkscreen
+    @(116.2500 mm, 38.5000 mm): PTH pad 2 [ROW2] of SW09
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 37.7000 mm): Rectangle of SW09 on f.silkscreen
+    @(103.7500 mm, 38.5000 mm): PTH pad 1 [ROW2] of SW09
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 37.7000 mm): Rectangle of SW09 on f.silkscreen
+    @(116.2500 mm, 43.5000 mm): PTH pad 4 [D09_A] of SW09
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 37.7000 mm): Rectangle of SW09 on f.silkscreen
+    @(103.7500 mm, 43.5000 mm): PTH pad 3 [D09_A] of SW09
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 63.6500 mm): Rectangle of D14 on f.silkscreen
+    @(102.1500 mm, 64.5000 mm): Pad 2 [D14_A] of D14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 63.6500 mm): Rectangle of D14 on f.silkscreen
+    @(99.8500 mm, 64.5000 mm): Pad 1 [COL5] of D14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 56.7000 mm): Rectangle of SW15 on f.silkscreen
+    @(116.2500 mm, 57.5000 mm): PTH pad 2 [ROW3] of SW15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 56.7000 mm): Rectangle of SW15 on f.silkscreen
+    @(103.7500 mm, 57.5000 mm): PTH pad 1 [ROW3] of SW15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 56.7000 mm): Rectangle of SW15 on f.silkscreen
+    @(116.2500 mm, 62.5000 mm): PTH pad 4 [D15_A] of SW15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 56.7000 mm): Rectangle of SW15 on f.silkscreen
+    @(103.7500 mm, 62.5000 mm): PTH pad 3 [D15_A] of SW15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 63.6500 mm): Rectangle of D15 on f.silkscreen
+    @(121.1500 mm, 64.5000 mm): Pad 2 [D15_A] of D15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 63.6500 mm): Rectangle of D15 on f.silkscreen
+    @(118.8500 mm, 64.5000 mm): Pad 1 [COL6] of D15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 82.6500 mm): Rectangle of D20 on f.silkscreen
+    @(102.1500 mm, 83.5000 mm): Pad 2 [D20_A] of D20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 82.6500 mm): Rectangle of D20 on f.silkscreen
+    @(99.8500 mm, 83.5000 mm): Pad 1 [COL5] of D20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 75.7000 mm): Rectangle of SW21 on f.silkscreen
+    @(103.7500 mm, 76.5000 mm): PTH pad 1 [ROW4] of SW21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 75.7000 mm): Rectangle of SW21 on f.silkscreen
+    @(116.2500 mm, 76.5000 mm): PTH pad 2 [ROW4] of SW21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 75.7000 mm): Rectangle of SW21 on f.silkscreen
+    @(103.7500 mm, 81.5000 mm): PTH pad 3 [D21_A] of SW21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 75.7000 mm): Rectangle of SW21 on f.silkscreen
+    @(116.2500 mm, 81.5000 mm): PTH pad 4 [D21_A] of SW21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 82.6500 mm): Rectangle of D21 on f.silkscreen
+    @(121.1500 mm, 83.5000 mm): Pad 2 [D21_A] of D21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 82.6500 mm): Rectangle of D21 on f.silkscreen
+    @(118.8500 mm, 83.5000 mm): Pad 1 [COL6] of D21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 101.6500 mm): Rectangle of D27 on f.silkscreen
+    @(121.1500 mm, 102.5000 mm): Pad 2 [D27_A] of D27 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 101.6500 mm): Rectangle of D26 on f.silkscreen
+    @(99.8500 mm, 102.5000 mm): Pad 1 [COL5] of D26 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 94.7000 mm): Rectangle of SW27 on f.silkscreen
+    @(103.7500 mm, 95.5000 mm): PTH pad 1 [ROW5] of SW27
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 94.7000 mm): Rectangle of SW27 on f.silkscreen
+    @(116.2500 mm, 95.5000 mm): PTH pad 2 [ROW5] of SW27
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 94.7000 mm): Rectangle of SW27 on f.silkscreen
+    @(116.2500 mm, 100.5000 mm): PTH pad 4 [D27_A] of SW27
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.0000 mm, 94.7000 mm): Rectangle of SW27 on f.silkscreen
+    @(103.7500 mm, 100.5000 mm): PTH pad 3 [D27_A] of SW27
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.3500 mm, 101.6500 mm): Rectangle of D26 on f.silkscreen
+    @(102.1500 mm, 102.5000 mm): Pad 2 [D26_A] of D26 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 101.6500 mm): Rectangle of D27 on f.silkscreen
+    @(118.8500 mm, 102.5000 mm): Pad 1 [COL6] of D27 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 44.6500 mm): Rectangle of D09 on f.silkscreen
+    @(121.1500 mm, 45.5000 mm): Pad 2 [D09_A] of D09 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.3500 mm, 44.6500 mm): Rectangle of D09 on f.silkscreen
+    @(118.8500 mm, 45.5000 mm): Pad 1 [COL6] of D09 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 94.7000 mm): Rectangle of SW22 on f.silkscreen
+    @(8.7500 mm, 95.5000 mm): PTH pad 1 [ROW5] of SW22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 94.7000 mm): Rectangle of SW22 on f.silkscreen
+    @(21.2500 mm, 95.5000 mm): PTH pad 2 [ROW5] of SW22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 82.6500 mm): Rectangle of D16 on f.silkscreen
+    @(26.1500 mm, 83.5000 mm): Pad 2 [D16_A] of D16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 82.6500 mm): Rectangle of D16 on f.silkscreen
+    @(23.8500 mm, 83.5000 mm): Pad 1 [COL1] of D16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 94.7000 mm): Rectangle of SW22 on f.silkscreen
+    @(8.7500 mm, 100.5000 mm): PTH pad 3 [D22_A] of SW22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 94.7000 mm): Rectangle of SW22 on f.silkscreen
+    @(21.2500 mm, 100.5000 mm): PTH pad 4 [D22_A] of SW22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 56.7000 mm): Rectangle of SW10 on f.silkscreen
+    @(21.2500 mm, 62.5000 mm): PTH pad 4 [D10_A] of SW10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 63.6500 mm): Rectangle of D10 on f.silkscreen
+    @(26.1500 mm, 64.5000 mm): Pad 2 [D10_A] of D10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 63.6500 mm): Rectangle of D10 on f.silkscreen
+    @(23.8500 mm, 64.5000 mm): Pad 1 [COL1] of D10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 56.7000 mm): Rectangle of SW11 on f.silkscreen
+    @(40.2500 mm, 57.5000 mm): PTH pad 2 [ROW3] of SW11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 56.7000 mm): Rectangle of SW11 on f.silkscreen
+    @(27.7500 mm, 57.5000 mm): PTH pad 1 [ROW3] of SW11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 56.7000 mm): Rectangle of SW11 on f.silkscreen
+    @(40.2500 mm, 62.5000 mm): PTH pad 4 [D11_A] of SW11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 56.7000 mm): Rectangle of SW11 on f.silkscreen
+    @(27.7500 mm, 62.5000 mm): PTH pad 3 [D11_A] of SW11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 75.7000 mm): Rectangle of SW17 on f.silkscreen
+    @(27.7500 mm, 76.5000 mm): PTH pad 1 [ROW4] of SW17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 75.7000 mm): Rectangle of SW17 on f.silkscreen
+    @(40.2500 mm, 76.5000 mm): PTH pad 2 [ROW4] of SW17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 75.7000 mm): Rectangle of SW17 on f.silkscreen
+    @(40.2500 mm, 81.5000 mm): PTH pad 4 [D17_A] of SW17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 75.7000 mm): Rectangle of SW17 on f.silkscreen
+    @(27.7500 mm, 81.5000 mm): PTH pad 3 [D17_A] of SW17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 82.6500 mm): Rectangle of D17 on f.silkscreen
+    @(45.1500 mm, 83.5000 mm): Pad 2 [D17_A] of D17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 82.6500 mm): Rectangle of D17 on f.silkscreen
+    @(42.8500 mm, 83.5000 mm): Pad 1 [COL2] of D17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 56.7000 mm): Rectangle of SW10 on f.silkscreen
+    @(8.7500 mm, 62.5000 mm): PTH pad 3 [D10_A] of SW10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 75.7000 mm): Rectangle of SW16 on f.silkscreen
+    @(21.2500 mm, 76.5000 mm): PTH pad 2 [ROW4] of SW16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 75.7000 mm): Rectangle of SW16 on f.silkscreen
+    @(8.7500 mm, 76.5000 mm): PTH pad 1 [ROW4] of SW16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 75.7000 mm): Rectangle of SW16 on f.silkscreen
+    @(8.7500 mm, 81.5000 mm): PTH pad 3 [D16_A] of SW16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.0000 mm, 75.7000 mm): Rectangle of SW16 on f.silkscreen
+    @(21.2500 mm, 81.5000 mm): PTH pad 4 [D16_A] of SW16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 101.6500 mm): Rectangle of D22 on f.silkscreen
+    @(26.1500 mm, 102.5000 mm): Pad 2 [D22_A] of D22 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.3500 mm, 101.6500 mm): Rectangle of D22 on f.silkscreen
+    @(23.8500 mm, 102.5000 mm): Pad 1 [COL1] of D22 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 94.7000 mm): Rectangle of SW23 on f.silkscreen
+    @(27.7500 mm, 95.5000 mm): PTH pad 1 [ROW5] of SW23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 94.7000 mm): Rectangle of SW23 on f.silkscreen
+    @(40.2500 mm, 95.5000 mm): PTH pad 2 [ROW5] of SW23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 94.7000 mm): Rectangle of SW23 on f.silkscreen
+    @(27.7500 mm, 100.5000 mm): PTH pad 3 [D23_A] of SW23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(27.0000 mm, 94.7000 mm): Rectangle of SW23 on f.silkscreen
+    @(40.2500 mm, 100.5000 mm): PTH pad 4 [D23_A] of SW23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 63.6500 mm): Rectangle of D11 on f.silkscreen
+    @(42.8500 mm, 64.5000 mm): Pad 1 [COL2] of D11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 63.6500 mm): Rectangle of D11 on f.silkscreen
+    @(45.1500 mm, 64.5000 mm): Pad 2 [D11_A] of D11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 56.7000 mm): Rectangle of SW12 on f.silkscreen
+    @(59.2500 mm, 57.5000 mm): PTH pad 2 [ROW3] of SW12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 56.7000 mm): Rectangle of SW12 on f.silkscreen
+    @(46.7500 mm, 57.5000 mm): PTH pad 1 [ROW3] of SW12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 56.7000 mm): Rectangle of SW12 on f.silkscreen
+    @(59.2500 mm, 62.5000 mm): PTH pad 4 [D12_A] of SW12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 56.7000 mm): Rectangle of SW12 on f.silkscreen
+    @(46.7500 mm, 62.5000 mm): PTH pad 3 [D12_A] of SW12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 63.6500 mm): Rectangle of D12 on f.silkscreen
+    @(64.1500 mm, 64.5000 mm): Pad 2 [D12_A] of D12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 63.6500 mm): Rectangle of D12 on f.silkscreen
+    @(61.8500 mm, 64.5000 mm): Pad 1 [COL3] of D12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 75.7000 mm): Rectangle of SW18 on f.silkscreen
+    @(59.2500 mm, 76.5000 mm): PTH pad 2 [ROW4] of SW18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 75.7000 mm): Rectangle of SW18 on f.silkscreen
+    @(46.7500 mm, 76.5000 mm): PTH pad 1 [ROW4] of SW18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 75.7000 mm): Rectangle of SW18 on f.silkscreen
+    @(59.2500 mm, 81.5000 mm): PTH pad 4 [D18_A] of SW18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 75.7000 mm): Rectangle of SW18 on f.silkscreen
+    @(46.7500 mm, 81.5000 mm): PTH pad 3 [D18_A] of SW18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 56.7000 mm): Rectangle of SW13 on f.silkscreen
+    @(65.7500 mm, 57.5000 mm): PTH pad 1 [ROW3] of SW13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 56.7000 mm): Rectangle of SW13 on f.silkscreen
+    @(65.7500 mm, 62.5000 mm): PTH pad 3 [D13_A] of SW13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 56.7000 mm): Rectangle of SW13 on f.silkscreen
+    @(78.2500 mm, 57.5000 mm): PTH pad 2 [ROW3] of SW13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 56.7000 mm): Rectangle of SW13 on f.silkscreen
+    @(78.2500 mm, 62.5000 mm): PTH pad 4 [D13_A] of SW13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 63.6500 mm): Rectangle of D13 on f.silkscreen
+    @(83.1500 mm, 64.5000 mm): Pad 2 [D13_A] of D13 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 63.6500 mm): Rectangle of D13 on f.silkscreen
+    @(80.8500 mm, 64.5000 mm): Pad 1 [COL4] of D13 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 56.7000 mm): Rectangle of SW14 on f.silkscreen
+    @(84.7500 mm, 57.5000 mm): PTH pad 1 [ROW3] of SW14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 56.7000 mm): Rectangle of SW14 on f.silkscreen
+    @(97.2500 mm, 57.5000 mm): PTH pad 2 [ROW3] of SW14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 56.7000 mm): Rectangle of SW14 on f.silkscreen
+    @(97.2500 mm, 62.5000 mm): PTH pad 4 [D14_A] of SW14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 56.7000 mm): Rectangle of SW14 on f.silkscreen
+    @(84.7500 mm, 62.5000 mm): PTH pad 3 [D14_A] of SW14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 75.7000 mm): Rectangle of SW20 on f.silkscreen
+    @(84.7500 mm, 76.5000 mm): PTH pad 1 [ROW4] of SW20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 75.7000 mm): Rectangle of SW20 on f.silkscreen
+    @(97.2500 mm, 76.5000 mm): PTH pad 2 [ROW4] of SW20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 75.7000 mm): Rectangle of SW20 on f.silkscreen
+    @(97.2500 mm, 81.5000 mm): PTH pad 4 [D20_A] of SW20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 75.7000 mm): Rectangle of SW20 on f.silkscreen
+    @(84.7500 mm, 81.5000 mm): PTH pad 3 [D20_A] of SW20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 82.6500 mm): Rectangle of D18 on f.silkscreen
+    @(64.1500 mm, 83.5000 mm): Pad 2 [D18_A] of D18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 82.6500 mm): Rectangle of D18 on f.silkscreen
+    @(61.8500 mm, 83.5000 mm): Pad 1 [COL3] of D18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 101.6500 mm): Rectangle of D23 on f.silkscreen
+    @(45.1500 mm, 102.5000 mm): Pad 2 [D23_A] of D23 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.3500 mm, 101.6500 mm): Rectangle of D23 on f.silkscreen
+    @(42.8500 mm, 102.5000 mm): Pad 1 [COL2] of D23 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 94.7000 mm): Rectangle of SW24 on f.silkscreen
+    @(59.2500 mm, 95.5000 mm): PTH pad 2 [ROW5] of SW24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 94.7000 mm): Rectangle of SW24 on f.silkscreen
+    @(46.7500 mm, 95.5000 mm): PTH pad 1 [ROW5] of SW24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 94.7000 mm): Rectangle of SW24 on f.silkscreen
+    @(59.2500 mm, 100.5000 mm): PTH pad 4 [D24_A] of SW24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.0000 mm, 94.7000 mm): Rectangle of SW24 on f.silkscreen
+    @(46.7500 mm, 100.5000 mm): PTH pad 3 [D24_A] of SW24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 101.6500 mm): Rectangle of D24 on f.silkscreen
+    @(64.1500 mm, 102.5000 mm): Pad 2 [D24_A] of D24 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.3500 mm, 101.6500 mm): Rectangle of D24 on f.silkscreen
+    @(61.8500 mm, 102.5000 mm): Pad 1 [COL3] of D24 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 75.7000 mm): Rectangle of SW19 on f.silkscreen
+    @(65.7500 mm, 76.5000 mm): PTH pad 1 [ROW4] of SW19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 75.7000 mm): Rectangle of SW19 on f.silkscreen
+    @(78.2500 mm, 76.5000 mm): PTH pad 2 [ROW4] of SW19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 75.7000 mm): Rectangle of SW19 on f.silkscreen
+    @(65.7500 mm, 81.5000 mm): PTH pad 3 [D19_A] of SW19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 75.7000 mm): Rectangle of SW19 on f.silkscreen
+    @(78.2500 mm, 81.5000 mm): PTH pad 4 [D19_A] of SW19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 82.6500 mm): Rectangle of D19 on f.silkscreen
+    @(83.1500 mm, 83.5000 mm): Pad 2 [D19_A] of D19 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 82.6500 mm): Rectangle of D19 on f.silkscreen
+    @(80.8500 mm, 83.5000 mm): Pad 1 [COL4] of D19 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 94.7000 mm): Rectangle of SW25 on f.silkscreen
+    @(65.7500 mm, 95.5000 mm): PTH pad 1 [ROW5] of SW25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 94.7000 mm): Rectangle of SW25 on f.silkscreen
+    @(78.2500 mm, 95.5000 mm): PTH pad 2 [ROW5] of SW25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 94.7000 mm): Rectangle of SW25 on f.silkscreen
+    @(65.7500 mm, 100.5000 mm): PTH pad 3 [D25_A] of SW25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.0000 mm, 94.7000 mm): Rectangle of SW25 on f.silkscreen
+    @(78.2500 mm, 100.5000 mm): PTH pad 4 [D25_A] of SW25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 101.6500 mm): Rectangle of D25 on f.silkscreen
+    @(83.1500 mm, 102.5000 mm): Pad 2 [D25_A] of D25 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.3500 mm, 101.6500 mm): Rectangle of D25 on f.silkscreen
+    @(80.8500 mm, 102.5000 mm): Pad 1 [COL4] of D25 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 94.7000 mm): Rectangle of SW26 on f.silkscreen
+    @(84.7500 mm, 95.5000 mm): PTH pad 1 [ROW5] of SW26
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 94.7000 mm): Rectangle of SW26 on f.silkscreen
+    @(97.2500 mm, 95.5000 mm): PTH pad 2 [ROW5] of SW26
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 94.7000 mm): Rectangle of SW26 on f.silkscreen
+    @(97.2500 mm, 100.5000 mm): PTH pad 4 [D26_A] of SW26
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.0000 mm, 94.7000 mm): Rectangle of SW26 on f.silkscreen
+    @(84.7500 mm, 100.5000 mm): PTH pad 3 [D26_A] of SW26
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(112.0000 mm, 5.8000 mm): Reference field of J2
+    @(112.0000 mm, 5.4600 mm): PTH pad 1 [ICSP_MISO] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.0500 mm, 6.2500 mm): Rectangle of C1 on f.silkscreen
+    @(124.5000 mm, 7.0000 mm): Pad 2 [GND] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.0500 mm, 6.2500 mm): Rectangle of C1 on f.silkscreen
+    @(122.5000 mm, 7.0000 mm): Pad 1 [+5V] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.0500 mm, 11.2500 mm): Rectangle of C2 on f.silkscreen
+    @(124.5000 mm, 12.0000 mm): Pad 2 [GND] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.0500 mm, 11.2500 mm): Rectangle of C2 on f.silkscreen
+    @(122.5000 mm, 12.0000 mm): Pad 1 [+5V] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.0000 mm, 14.8000 mm): Reference field of TP2
+    @(120.0000 mm, 15.0000 mm): Pad 1 [RESET] of TP1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.1000 mm, 4.7000 mm): Rectangle of J2 on f.silkscreen
+    @(112.0000 mm, 5.4600 mm): PTH pad 1 [ICSP_MISO] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.1000 mm, 4.7000 mm): Rectangle of J2 on f.silkscreen
+    @(114.5400 mm, 5.4600 mm): PTH pad 2 [+5V] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.1000 mm, 4.7000 mm): Rectangle of J2 on f.silkscreen
+    @(112.0000 mm, 10.5400 mm): PTH pad 5 [RESET] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.1000 mm, 4.7000 mm): Rectangle of J2 on f.silkscreen
+    @(114.5400 mm, 10.5400 mm): PTH pad 6 [GND] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.0500 mm, 18.7500 mm): Rectangle of C5 on f.silkscreen
+    @(128.5000 mm, 19.5000 mm): Pad 2 [GND] of C5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.5500 mm, 17.0500 mm): Rectangle of R4 on f.silkscreen
+    @(128.0000 mm, 17.8000 mm): Pad 2 [+5V] of R4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.5500 mm, 17.0500 mm): Rectangle of R3 on f.silkscreen
+    @(125.0000 mm, 17.8000 mm): Pad 2 [+5V] of R3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.5500 mm, 17.0500 mm): Rectangle of R3 on f.silkscreen
+    @(123.0000 mm, 17.8000 mm): Pad 1 [RESET] of R3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.5500 mm, 17.0500 mm): Rectangle of R4 on f.silkscreen
+    @(126.0000 mm, 17.8000 mm): Pad 1 [HWB] of R4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.0500 mm, 18.7500 mm): Rectangle of C5 on f.silkscreen
+    @(126.5000 mm, 19.5000 mm): Pad 1 [XTAL1] of C5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.5000 mm, 17.3000 mm): Reference field of C5
+    @(128.0000 mm, 17.8000 mm): Pad 2 [+5V] of R4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.5500 mm, 14.2500 mm): Rectangle of C3 on f.silkscreen
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.5500 mm, 14.2500 mm): Rectangle of C3 on f.silkscreen
+    @(139.0000 mm, 15.0000 mm): Pad 2 [GND] of C3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.5500 mm, 14.2500 mm): Rectangle of C3 on f.silkscreen
+    @(137.0000 mm, 15.0000 mm): Pad 1 [UCAP] of C3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.0500 mm, 18.7500 mm): Rectangle of C6 on f.silkscreen
+    @(137.5000 mm, 19.5000 mm): Pad 2 [GND] of C6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.0500 mm, 18.7500 mm): Rectangle of C6 on f.silkscreen
+    @(135.5000 mm, 19.5000 mm): Pad 1 [XTAL2] of C6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.0000 mm, 12.8000 mm): Reference field of C3
+    @(138.5000 mm, 13.2000 mm): Pad 24 [+5V] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.0000 mm, 12.8000 mm): Reference field of C3
+    @(138.5000 mm, 12.4000 mm): Pad 25 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.0000 mm, 12.8000 mm): Reference field of C3
+    @(138.5000 mm, 14.0000 mm): Pad 23 [GND] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.0000 mm, 1.8000 mm): Reference field of H2
+    @(146.0000 mm, 1.5000 mm): Pad 2 [GND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(143.5500 mm, 0.7500 mm): Rectangle of C7 on f.silkscreen
+    @(146.0000 mm, 1.5000 mm): Pad 2 [GND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.0000 mm, 2.0000 mm): Rectangle of H2 on f.silkscreen
+    @(144.0000 mm, 1.5000 mm): Pad 1 [+5V] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.0000 mm, 2.0000 mm): Rectangle of H2 on f.silkscreen
+    @(146.0000 mm, 1.5000 mm): Pad 2 [GND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(143.5500 mm, 0.7500 mm): Rectangle of C7 on f.silkscreen
+    @(144.0000 mm, 1.5000 mm): Pad 1 [+5V] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(142.0000 mm, 7.0500 mm): Reference field of R1
+    @(141.0000 mm, 6.2500 mm): Pad 1 [USB_CC2] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(142.0000 mm, 4.0500 mm): Reference field of R2
+    @(140.8700 mm, 3.6800 mm): PTH pad SH3 [GND] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.5500 mm, 8.5000 mm): Rectangle of R1 on f.silkscreen
+    @(143.0000 mm, 9.2500 mm): Pad 2 [GND] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.0000 mm, 12.7000 mm): Rectangle of J1 on f.silkscreen
+    @(140.8700 mm, 12.3200 mm): PTH pad SH1 [GND] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.0000 mm, 12.7000 mm): Rectangle of J1 on f.silkscreen
+    @(145.0500 mm, 12.3200 mm): PTH pad SH2 [GND] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.0000 mm, 12.7000 mm): Rectangle of J1 on f.silkscreen
+    @(146.0000 mm, 4.0000 mm): NPTH pad of H2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.0000 mm, 12.7000 mm): Rectangle of J1 on f.silkscreen
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+
+** Found 16 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on F.Cu, priority 0
+    @(125.5000 mm, 9.2000 mm): Pad 5 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on F.Cu, priority 0
+    @(128.8000 mm, 3.5000 mm): Pad 43 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.4000 mm, 16.5000 mm): Pad 15 [GND] of U1 on F.Cu
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.2000 mm, 3.5000 mm): Pad 35 [GND] of U1 on F.Cu
+    @(1.5000 mm, 1.5000 mm): Zone [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.8700 mm, 3.6800 mm): PTH pad SH3 [GND] of J1
+    @(143.0000 mm, 6.2500 mm): Pad 2 [GND] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.0000 mm, 6.2500 mm): Pad 2 [GND] of R2 on F.Cu
+    @(143.0000 mm, 9.2500 mm): Pad 2 [GND] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.0000 mm, 6.2500 mm): Pad 2 [GND] of R2 on F.Cu
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.0000 mm, 1.5000 mm): Pad 2 [GND] of C7 on F.Cu
+    @(145.0500 mm, 3.6800 mm): PTH pad SH4 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.9550 mm, 7.7500 mm): Track [USB_D-] on B.Cu, length 1.0000 mm
+    @(139.9550 mm, 8.7500 mm): Pad B7 [USB_D-] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5000 mm, 19.5000 mm): Pad 1 [XTAL1] of C5 on F.Cu
+    @(132.0000 mm, 16.5000 mm): Track [XTAL1] on F.Cu, length 3.4000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.2000 mm, 16.5000 mm): Track [XTAL2] on F.Cu, length 3.8419 mm
+    @(135.5000 mm, 19.5000 mm): Pad 1 [XTAL2] of C6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.4000 mm, 3.5000 mm): Pad 36 [ROW1] of U1 on F.Cu
+    @(122.0000 mm, 1.0000 mm): Track [ROW1] on F.Cu, length 12.4000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.6000 mm, 3.5000 mm): Pad 37 [ROW2] of U1 on F.Cu
+    @(123.0000 mm, 1.4000 mm): Track [ROW2] on F.Cu, length 10.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.8000 mm, 3.5000 mm): Pad 38 [ROW3] of U1 on F.Cu
+    @(124.0000 mm, 1.8000 mm): Track [ROW3] on F.Cu, length 8.8000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 3.5000 mm): Pad 39 [ROW4] of U1 on F.Cu
+    @(125.0000 mm, 2.2000 mm): Track [ROW4] on F.Cu, length 7.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.2000 mm, 3.5000 mm): Pad 40 [ROW5] of U1 on F.Cu
+    @(126.0000 mm, 2.6000 mm): Track [ROW5] on F.Cu, length 5.2000 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
